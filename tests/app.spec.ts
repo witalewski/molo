@@ -753,7 +753,7 @@ test("microphone uses real MediaRecorder, receives audio and releases every trac
     .toEqual(["ended"]);
 });
 
-test("denied microphone and network errors never produce a successful answer", async ({
+test("denied microphone and network errors allow skipping without a successful answer", async ({
   page,
 }) => {
   await page.addInitScript(() => {
@@ -792,11 +792,95 @@ test("denied microphone and network errors never produce a successful answer", a
       page.getByLabel("Wybierz nagranie swojej wypowiedzi"),
     ).toBeEnabled();
   }
-  await expect(skip(page)).toHaveCount(0);
+  await expect(skip(page)).toBeEnabled();
   await expect(
     page.getByRole("button", { name: "Zakończ trening", exact: true }),
   ).toBeDisabled();
 });
+
+for (const failure of ["microphone", "network", "short audio"] as const) {
+  test(`three ${failure} failures unlock skipping and survive a lesson reload`, async ({
+    page,
+  }) => {
+    if (failure === "microphone") {
+      await page.addInitScript(() => {
+        navigator.mediaDevices.getUserMedia = async () => {
+          throw new DOMException("Denied", "NotAllowedError");
+        };
+      });
+    }
+    await resumeSpeech(page);
+    if (failure === "network")
+      await page.route("**/api/evaluate/**", (route) => route.abort("failed"));
+
+    // A valid WAV containing only 0.1s exercises validation before the API call.
+    const shortAudio = Buffer.alloc(44 + 1600 * 2);
+    shortAudio.write("RIFF");
+    shortAudio.writeUInt32LE(shortAudio.length - 8, 4);
+    shortAudio.write("WAVEfmt ", 8);
+    shortAudio.writeUInt32LE(16, 16);
+    shortAudio.writeUInt16LE(1, 20);
+    shortAudio.writeUInt16LE(1, 22);
+    shortAudio.writeUInt32LE(16000, 24);
+    shortAudio.writeUInt32LE(32000, 28);
+    shortAudio.writeUInt16LE(2, 32);
+    shortAudio.writeUInt16LE(16, 34);
+    shortAudio.write("data", 36);
+    shortAudio.writeUInt32LE(shortAudio.length - 44, 40);
+
+    for (let attempt = 1; attempt <= 3; attempt++) {
+      if (failure === "microphone") {
+        await page
+          .getByRole("button", { name: "Nagraj swoją wypowiedź", exact: true })
+          .click();
+        await expect(page.getByRole("alert")).toContainText(
+          "Dostęp do mikrofonu został zablokowany",
+        );
+      } else {
+        await page
+          .getByLabel("Wybierz nagranie swojej wypowiedzi")
+          .setInputFiles(
+            failure === "short audio"
+              ? { name: "short.wav", mimeType: "audio/wav", buffer: shortAudio }
+              : fixture("molo"),
+          );
+        await expect(page.getByRole("alert")).toBeVisible();
+        await expect(
+          page.getByLabel("Wybierz nagranie swojej wypowiedzi"),
+        ).toBeEnabled();
+      }
+      await expect
+        .poll(() =>
+          page.evaluate(() =>
+            JSON.parse(localStorage.getItem("molo.session")!),
+          ),
+        )
+        .toMatchObject({ failedSpeechAttempts: attempt, mistakes: 0 });
+      if (attempt < 3) await expect(skip(page)).toHaveCount(0);
+    }
+    await expect(skip(page)).toBeEnabled();
+    await expect(next(page)).toBeDisabled();
+    await page.reload();
+    await page
+      .getByRole("button", { name: "Kontynuuj lekcję", exact: true })
+      .click();
+    await expect(skip(page)).toBeEnabled();
+    await skip(page).click();
+    await expect(
+      page.getByRole("heading", { name: "Molweni!", exact: true }),
+    ).toBeVisible();
+    await expect
+      .poll(() =>
+        page.evaluate(() => JSON.parse(localStorage.getItem("molo.session")!)),
+      )
+      .toMatchObject({
+        step: 3,
+        failedSpeechAttempts: 0,
+        mistakes: 0,
+        skipped: ["molo"],
+      });
+  });
+}
 
 test("@ui leaving a lesson stops its reference audio", async ({ page }) => {
   await go(page);

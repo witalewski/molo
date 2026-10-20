@@ -435,12 +435,12 @@ export default function App() {
           onMistake={() =>
             setSession((s) => (s ? { ...s, mistakes: s.mistakes + 1 } : null))
           }
-          onSpeechFailure={() =>
+          onSpeechFailure={(countsAsMistake) =>
             setSession((s) =>
               s
                 ? {
                     ...s,
-                    mistakes: s.mistakes + 1,
+                    mistakes: s.mistakes + (countsAsMistake ? 1 : 0),
                     failedSpeechAttempts: (s.failedSpeechAttempts ?? 0) + 1,
                   }
                 : null,
@@ -1412,7 +1412,7 @@ function Exercise({
   onAdvance: () => void;
   onSkip: () => void;
   onMistake: () => void;
-  onSpeechFailure: () => void;
+  onSpeechFailure: (countsAsMistake: boolean) => void;
   onInfo: () => void;
 }) {
   const mode = practiceMode ? 2 : step % 3,
@@ -1501,16 +1501,18 @@ function Exercise({
         throw Error(data.error || "Nie udało się sprawdzić nagrania.");
       if (active.current) {
         setResult(data);
-        if (!data.passed) onSpeechFailure();
+        if (!data.passed) onSpeechFailure(true);
       }
     } catch (e) {
-      if (active.current)
+      if (active.current) {
+        onSpeechFailure(false);
         setError(
           (e as Error).name === "AbortError"
             ? "Analiza trwała zbyt długo. Spróbuj ponownie."
             : (e as Error).message ||
                 "Sprawdź połączenie z serwerem i spróbuj ponownie.",
         );
+      }
     } finally {
       clearTimeout(timeout);
       if (active.current) setState("idle");
@@ -1533,6 +1535,7 @@ function Exercise({
           if (active.current) {
             setState("idle");
             setError(message);
+            onSpeechFailure(false);
           }
         },
       );
@@ -1546,6 +1549,7 @@ function Exercise({
       if (active.current) {
         setState("idle");
         setError(micError(e));
+        onSpeechFailure(false);
       }
     }
   }
@@ -1783,11 +1787,12 @@ function Exercise({
                   const file = e.target.files?.[0];
                   e.target.value = "";
                   if (file) {
-                    if (file.size > 8 * 1024 * 1024)
+                    if (file.size > 8 * 1024 * 1024) {
                       setError(
                         "Plik jest za duży. Wybierz krótkie nagranie do 12 sekund.",
                       );
-                    else void assess(file);
+                      onSpeechFailure(false);
+                    } else void assess(file);
                   }
                 }}
               />
