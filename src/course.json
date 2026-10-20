@@ -1,0 +1,276 @@
+[
+  {
+    "id": "greetings",
+    "number": 1,
+    "title": "Pierwsze molo",
+    "subtitle": "Powitania i pożegnania",
+    "description": "Przywitaj się z jedną osobą, grupą i pożegnaj się we właściwy sposób.",
+    "color": "green",
+    "phrases": [
+      {
+        "id": "molo",
+        "xh": "Molo!",
+        "pl": "Cześć!",
+        "context": "Powitanie jednej osoby, o każdej porze dnia.",
+        "tip": "Dwie wyraźne sylaby: mo-lo. Samogłoski są krótkie i czyste."
+      },
+      {
+        "id": "molweni",
+        "xh": "Molweni!",
+        "pl": "Witajcie!",
+        "context": "Powitanie kilku osób. Liczba mnoga bywa także formą szacunku.",
+        "tip": "Posłuchaj uważnie połączenia lw. Nie dodawaj między nimi samogłoski."
+      },
+      {
+        "id": "molo-tata",
+        "xh": "Molo, tata!",
+        "pl": "Dzień dobry panu!",
+        "context": "Z szacunkiem do starszego mężczyzny. Tata znaczy dosłownie „ojciec”.",
+        "tip": "Powiedz mo-lo, ta-ta. Tata to forma szacunku, nie tylko określenie ojca."
+      },
+      {
+        "id": "molo-mama",
+        "xh": "Molo, mama!",
+        "pl": "Dzień dobry pani!",
+        "context": "Z szacunkiem do starszej kobiety. Mama znaczy dosłownie „matka”.",
+        "tip": "Zachowaj wyraźne ma-ma, bez polskiego zmiękczania spółgłosek."
+      },
+      {
+        "id": "hamba-kakuhle",
+        "xh": "Hamba kakuhle!",
+        "pl": "Do widzenia! (do odchodzącej osoby)",
+        "context": "Mówisz to osobie, która odchodzi. Dosłownie: „Idź dobrze”.",
+        "tip": "Kh jest wymawiane z przydechem. Hl to bezdźwięczny dźwięk boczny: ułóż język jak do l i wypuść powietrze bokami."
+      },
+      {
+        "id": "sala-kakuhle",
+        "xh": "Sala kakuhle!",
+        "pl": "Do widzenia! (do zostającej osoby)",
+        "context": "Mówisz to osobie, która zostaje, kiedy ty odchodzisz. Dosłownie: „Zostań dobrze”.",
+        "tip": "Sa-la, ka-ku-hle. Nie zastępuj hl zwykłym polskim l; porównaj z nagraniem."
+      }
+    ]
+  },
+  {
+    "id": "courtesy",
+    "number": 2,
+    "title": "Małe słowa, dużo szacunku",
+    "subtitle": "Podziękowania i przeprosiny",
+    "description": "Podziękuj, przeproś i zwróć się do rozmówcy z szacunkiem.",
+    "color": "orange",
+    "phrases": [
+      {
+        "id": "enkosi",
+        "xh": "Enkosi!",
+        "pl": "Dziękuję!",
+        "context": "Uniwersalne podziękowanie, odpowiednie w codziennych sytuacjach.",
+        "tip": "En-ko-si. Nie czytaj końcówki si jak polskiego śi."
+      },
+      {
+        "id": "enkosi-kakhulu",
+        "xh": "Enkosi kakhulu!",
+        "pl": "Bardzo dziękuję!",
+        "context": "Kakhulu wzmacnia podziękowanie: „bardzo”.",
+        "tip": "Posłuchaj przydechu w kh. Powiedz całe podziękowanie płynnie, bez pośpiechu."
+      },
+      {
+        "id": "enkosi-tata",
+        "xh": "Enkosi, tata!",
+        "pl": "Dziękuję panu!",
+        "context": "Podziękowanie starszemu mężczyźnie z użyciem formy szacunku tata.",
+        "tip": "En-ko-si, ta-ta. Zachowaj wszystkie samogłoski i naśladuj rytm nagrania."
+      },
+      {
+        "id": "enkosi-mama",
+        "xh": "Enkosi, mama!",
+        "pl": "Dziękuję pani!",
+        "context": "Podziękowanie starszej kobiecie z użyciem formy szacunku mama.",
+        "tip": "En-ko-si, ma-ma. Końcówkę si wymawiaj bez zmiękczenia."
+      },
+      {
+        "id": "uxolo-tata",
+        "xh": "Uxolo, tata!",
+        "pl": "Przepraszam pana!",
+        "context": "Przeprosiny lub grzeczne zwrócenie uwagi starszego mężczyzny.",
+        "tip": "X to mlask boczny. Przyłóż język do podniebienia i oderwij jego bok. To nie polskie ks — koniecznie posłuchaj wzorca."
+      },
+      {
+        "id": "uxolo-mama",
+        "xh": "Uxolo, mama!",
+        "pl": "Przepraszam panią!",
+        "context": "Przeprosiny lub grzeczne zwrócenie uwagi starszej kobiety.",
+        "tip": "W uxolo litera x oznacza mlask boczny. Ćwicz go osobno, a potem dołącz u- i -olo. Naśladuj nagranie."
+      }
+    ]
+  },
+  {
+    "id": "how-are-you",
+    "number": 3,
+    "title": "Co u ciebie?",
+    "subtitle": "Powitanie to mała rozmowa",
+    "description": "Zapytaj o samopoczucie, odpowiedz i odwzajemnij zainteresowanie — jednej osobie i grupie.",
+    "color": "green",
+    "phrases": [
+      {
+        "id": "unjani",
+        "xh": "Unjani?",
+        "pl": "Jak się masz?",
+        "context": "Po Molo! zapytaj jedną osobę o samopoczucie. Pasuje do kolegi, dziecka i starszej osoby; szacunek wyrażasz także formą zwracania się do rozmówcy i tonem.",
+        "tip": "U-nja-ni. Nj nie czytaj jako dwóch oddzielonych samogłoską dźwięków. Porównaj z nagraniem."
+      },
+      {
+        "id": "ndiphilile-enkosi",
+        "xh": "Ndiphilile, enkosi.",
+        "pl": "Mam się dobrze, dziękuję.",
+        "context": "Odpowiedź jednej osoby na Unjani?. Podziękowanie docenia zainteresowanie rozmówcy. Potem możesz zapytać Wena unjani?.",
+        "tip": "W ph słychać p z przydechem, nie polskie f. Zachowaj wszystkie sylaby w ndi-phi-li-le."
+      },
+      {
+        "id": "wena-unjani",
+        "xh": "Wena unjani?",
+        "pl": "A ty jak się masz?",
+        "context": "Po własnej odpowiedzi odwzajemnij pytanie jednej osobie. Wena oznacza „ty”; kolejność Unjani wena? również występuje, tutaj ćwiczymy Wena unjani?.",
+        "tip": "Powiedz we-na u-nja-ni jako jedno pytanie. Nie pomijaj początkowego u w unjani."
+      },
+      {
+        "id": "nam-ndiphilile",
+        "xh": "Nam ndiphilile.",
+        "pl": "Ja też mam się dobrze.",
+        "context": "Zamknij krótką wymianę: Molo! → Unjani? → Ndiphilile, enkosi. Wena unjani? → Nam ndiphilile. Daj rozmówcy czas na odpowiedź.",
+        "tip": "Nam znaczy „ja też”. Nie gub m przed ndiphilile; posłuchaj płynnego połączenia słów."
+      },
+      {
+        "id": "ninjani",
+        "xh": "Ninjani?",
+        "pl": "Jak się macie?",
+        "context": "Po Molweni! zapytaj grupę o samopoczucie. Liczba mnoga może też wyrażać szacunek wobec jednej osoby lub zainteresowanie jej rodziną; tutaj ćwiczymy rozmowę z grupą.",
+        "tip": "Ni-nja-ni. Odróżnij początek ni- od u- w Unjani? — zmienia się liczba rozmówców."
+      },
+      {
+        "id": "siphilile-enkosi",
+        "xh": "Siphilile, enkosi.",
+        "pl": "Mamy się dobrze, dziękujemy.",
+        "context": "Odpowiedź w imieniu kilku osób na Ninjani?. Przedrostek si- oznacza tutaj „my”, a ndi- w Ndiphilile — „ja”.",
+        "tip": "Si-phi-li-le. Si wymawiaj bez polskiego zmiękczenia; ph to p z przydechem."
+      }
+    ]
+  },
+  {
+    "id": "polite-requests",
+    "number": 4,
+    "title": "Poproszę, dziękuję",
+    "subtitle": "Prośby i spokojna rozmowa",
+    "description": "Poproś o wodę, pomoc i powtórzenie. Powiedz, że nie rozumiesz, i odpowiedz na podziękowanie.",
+    "color": "orange",
+    "phrases": [
+      {
+        "id": "ndicela-amanzi",
+        "xh": "Ndicela amanzi.",
+        "pl": "Poproszę wodę.",
+        "context": "U gospodarza lub przy zamawianiu zacznij od powitania, a potem poproś o wodę. Ndicela znaczy „proszę o…”; po nim podajesz rzecz. To inne „proszę” niż odpowiedź na podziękowanie.",
+        "tip": "C w ndicela oznacza mlask zębowy: oderwij czubek języka od okolicy górnych zębów. To nie polskie c. Posłuchaj ndi-ce-la a-ma-nzi."
+      },
+      {
+        "id": "ndicela-undincede",
+        "xh": "Ndicela undincede.",
+        "pl": "Proszę, pomóż mi.",
+        "context": "Spokojna prośba o pomoc do jednej osoby, np. pracownika lub przechodnia. Najpierw przywitaj się, ewentualnie dodaj poznane Uxolo, tata! lub Uxolo, mama!, a po pomocy podziękuj.",
+        "tip": "Oba c oznaczają mlask zębowy. Nie połykaj końcowego -e w undincede. Ćwicz z wolniejszym nagraniem."
+      },
+      {
+        "id": "andiqondi",
+        "xh": "Andiqondi.",
+        "pl": "Nie rozumiem.",
+        "context": "Gdy nie rozumiesz wypowiedzi, powiedz to spokojnie. Następnie poproś o powtórzenie lub wolniejsze tempo. W rozmowie ze starszą osobą nadal zachowaj poznane formy szacunku.",
+        "tip": "Q to mlask podniebienny. Oderwij język od podniebienia; nie czytaj q jak k ani ku. Naśladuj wzorzec."
+      },
+      {
+        "id": "ndicela-uphinde",
+        "xh": "Ndicela uphinde.",
+        "pl": "Proszę, powtórz.",
+        "context": "Prośba do jednej osoby, gdy nie dosłyszysz lub nie zrozumiesz. Możesz połączyć ją z Andiqondi. Działa również w spokojnej rozmowie w sklepie lub recepcji.",
+        "tip": "W ndicela ćwicz mlask c, a w uphinde — p z przydechem zapisane ph. Powiedz pełne końcowe -e."
+      },
+      {
+        "id": "ndicela-uthethe-ungangxami",
+        "xh": "Ndicela uthethe ungangxami.",
+        "pl": "Proszę, mów wolniej.",
+        "context": "Uprzejma prośba do jednej osoby, gdy mówi zbyt szybko. Ndicela rozpoczyna prośbę; w poznawanych prośbach z czasownikiem ucz się całej formy, zamiast doklejać dowolne słowo.",
+        "tip": "Podziel zwrot na ndicela / uthethe / ungangxami. Th ma przydech, a x w ngx to mlask boczny z towarzyszącym dźwiękiem nosowym. Posłuchaj całości wolniej."
+      },
+      {
+        "id": "nam-ndiyabulela",
+        "xh": "Nam ndiyabulela.",
+        "pl": "Również dziękuję. / Cała przyjemność po mojej stronie.",
+        "context": "Uprzejma odpowiedź na podziękowanie, np. po udzieleniu pomocy lub zakupie. Dosłownie odwzajemniasz podziękowanie. Nie używaj tu Ndicela — ono wprowadza prośbę.",
+        "tip": "Nam ndi-ya-bu-le-la. Zachowaj wyraźne samogłoski w dłuższym słowie ndiyabulela."
+      }
+    ]
+  },
+  {
+    "id": "respect-and-goodbyes",
+    "number": 5,
+    "title": "Do kogo mówisz?",
+    "subtitle": "Wiek, grupa i pożegnania",
+    "description": "Dobierz powitanie do wieku rozmówcy, pożegnaj grupę i zakończ dzień lub uprzejmie odmów.",
+    "color": "green",
+    "phrases": [
+      {
+        "id": "molo-bhuti",
+        "xh": "Molo, bhuti!",
+        "pl": "Cześć! (do mężczyzny w podobnym wieku)",
+        "context": "Bhuti, dosłownie „brat”, to przyjazna forma do mężczyzny w zbliżonym wieku, nie tylko krewnego. Wobec dziecka wystarczy Molo! lub imię. W sytuacji oficjalnej uwzględnij sposób, w jaki rozmówca się przedstawia.",
+        "tip": "Bhu-ti. Bh w isiXhosa nie oznacza polskiego b plus h. Wsłuchaj się w początek słowa w nagraniu."
+      },
+      {
+        "id": "molo-sisi",
+        "xh": "Molo, sisi!",
+        "pl": "Cześć! (do kobiety w podobnym wieku)",
+        "context": "Sisi, dosłownie „siostra”, to przyjazna forma do kobiety w zbliżonym wieku. Dla pokolenia rodziców znasz już mama i tata. Są to wskazówki kulturowe, a preferencje konkretnej osoby mają znaczenie.",
+        "tip": "Mo-lo, si-si. Nie zmiękczaj si do polskiego śi."
+      },
+      {
+        "id": "molo-tatomkhulu",
+        "xh": "Molo, tat’omkhulu!",
+        "pl": "Dzień dobry! (z szacunkiem do starszego pana)",
+        "context": "Tat’omkhulu, dosłownie „dziadek”, jest formą szacunku do mężczyzny z pokolenia dziadków, także spoza rodziny. Młodsza osoba zwyczajowo inicjuje powitanie starszej.",
+        "tip": "Posłuchaj tat’om-khu-lu. Apostrof oznacza skrócenie formy, a kh — przydech. Nie rób przerwy w środku słowa."
+      },
+      {
+        "id": "molo-makhulu",
+        "xh": "Molo, makhulu!",
+        "pl": "Dzień dobry! (z szacunkiem do starszej pani)",
+        "context": "Makhulu, dosłownie „babcia”, jest formą szacunku do kobiety z pokolenia dziadków, także spoza rodziny. Podobnie możesz dołączyć tę formę po Enkosi, aby podziękować z szacunkiem.",
+        "tip": "Ma-khu-lu. Kh wymawiaj z przydechem. Odróżniaj całe makhulu od poznanego mama."
+      },
+      {
+        "id": "hambani-kakuhle",
+        "xh": "Hambani kakuhle!",
+        "pl": "Do widzenia! (do odchodzącej grupy)",
+        "context": "Zostajesz, a kilka osób odchodzi — życzysz im dobrej drogi. Hambani jest liczbą mnogą od Hamba. Przykład: gospodarze żegnają wychodzących gości.",
+        "tip": "Ham-ba-ni, ka-ku-hle. Nie pomijaj -ni: odróżnia grupę od jednej osoby. Hl ćwicz jak w Hamba kakuhle!."
+      },
+      {
+        "id": "salani-kakuhle",
+        "xh": "Salani kakuhle!",
+        "pl": "Do widzenia! (do zostającej grupy)",
+        "context": "Odchodzisz, a kilka osób zostaje — żegnasz ich tą formą. Salani jest liczbą mnogą od Sala. Przykład: wychodząc od znajomych, żegnasz gospodarzy.",
+        "tip": "Sa-la-ni, ka-ku-hle. Porównaj początek z Hambani i liczbę mnogą -ni z Sala kakuhle!."
+      },
+      {
+        "id": "ulale-kamnandi",
+        "xh": "Ulale kamnandi!",
+        "pl": "Dobranoc! (do jednej osoby)",
+        "context": "Życzenie dobrego snu przy pożegnaniu jednej osoby przed nocnym odpoczynkiem, także dziecka. Wieczorne powitanie nadal brzmi Molo!; dobranoc nie zastępuje powitania.",
+        "tip": "U-la-le, kam-nan-di. Zachowaj wszystkie sylaby i słuchaj połączenia m-n."
+      },
+      {
+        "id": "hayi-enkosi",
+        "xh": "Hayi, enkosi.",
+        "pl": "Nie, dziękuję.",
+        "context": "Uprzejma odmowa, np. gdy gospodarz proponuje dokładkę. Hayi znaczy „nie”, a Enkosi łagodzi odmowę. Szacunek nie wymaga przyjmowania każdej propozycji.",
+        "tip": "Ha-yi, en-ko-si. Wypowiedz oba słowa spokojnie; nie pomijaj podziękowania."
+      }
+    ]
+  }
+]

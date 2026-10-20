@@ -1,0 +1,157 @@
+[
+  {
+    "id": "first-conversations",
+    "number": 1,
+    "title": "Pierwsze rozmowy",
+    "description": "Przywitaj się, zapytaj o samopoczucie, poproś, podziękuj i pożegnaj się z szacunkiem.",
+    "lessonIds": [
+      "greetings",
+      "courtesy",
+      "how-are-you",
+      "polite-requests",
+      "respect-and-goodbyes"
+    ],
+    "cultureNote": "Wchodząc, zacznij od powitania i daj czas na odpowiedź. Molo pasuje o każdej porze dnia. Formy bhuti/sisi, tata/mama i tat’omkhulu/makhulu pomagają uwzględnić wiek; kieruj się też preferencjami rozmówcy. W oficjalnym spotkaniu uwzględnij przedstawiony tytuł lub imię. Z dzieckiem również rozmawiaj uprzejmie.",
+    "passPercent": 80,
+    "sources": [
+      {
+        "title": "UNISA — Greetings and Courtesies",
+        "url": "https://www.unisa.ac.za/static/corporate_web/Content/UnisaOpen/freeOnlineCourse/PDF/Xhosa/Learn%20online%20Xhosa%20-%20Theme%201.pdf"
+      },
+      {
+        "title": "UNISA — Asking for Help",
+        "url": "https://www.unisa.ac.za/static/corporate_web/Content/UnisaOpen/freeOnlineCourse/Xhosa/Xhosa2.html"
+      },
+      {
+        "title": "IsiXhosa.click — cela",
+        "url": "https://isixhosa.click/word/1407"
+      }
+    ],
+    "questions": [
+      {
+        "id": "greet-group",
+        "prompt": "Wchodzisz do pokoju, w którym jest kilka osób. Jak przywitasz całą grupę?",
+        "options": ["molo", "molweni", "hamba-kakuhle", "enkosi"],
+        "correctPhraseId": "molweni",
+        "explanation": "Molweni! wita kilka osób. Molo! kierujesz do jednej osoby. Osoba przychodząca zwyczajowo rozpoczyna powitanie."
+      },
+      {
+        "id": "thank-older-woman",
+        "prompt": "Kobieta w wieku twojej mamy pomogła ci przy zakupach. Jak podziękujesz, używając formy szacunku?",
+        "options": ["enkosi-tata", "uxolo-mama", "enkosi-mama", "molo-mama"],
+        "correctPhraseId": "enkosi-mama",
+        "explanation": "Enkosi, mama! łączy podziękowanie z formą szacunku do kobiety z pokolenia rodziców. Mama nie musi oznaczać twojej własnej mamy."
+      },
+      {
+        "id": "return-wellbeing",
+        "prompt": "Rozmówca zapytał, jak się masz. Odpowiadasz i chcesz odwzajemnić pytanie, zwracając się wprost do niego słowem wena („ty”). Co dodasz?",
+        "options": [
+          "siphilile-enkosi",
+          "wena-unjani",
+          "ninjani",
+          "nam-ndiphilile"
+        ],
+        "correctPhraseId": "wena-unjani",
+        "explanation": "Wena unjani? to „A ty jak się masz?”. Uprzejme powitanie daje miejsce na zainteresowanie drugą osobą, nie tylko na własną odpowiedź."
+      },
+      {
+        "id": "request-water",
+        "prompt": "Po przywitaniu prosisz gospodarza o wodę. Który zwrot wyraża tę prośbę?",
+        "options": [
+          "nam-ndiyabulela",
+          "andiqondi",
+          "ndicela-amanzi",
+          "enkosi-kakhulu"
+        ],
+        "correctPhraseId": "ndicela-amanzi",
+        "explanation": "Ndicela amanzi. znaczy „Poproszę wodę”. Ndicela wprowadza prośbę; nie jest odpowiedzią „proszę” na czyjeś podziękowanie."
+      },
+      {
+        "id": "ask-repeat",
+        "prompt": "Pracownik recepcji powiedział coś, czego nie dosłyszałeś. Jak uprzejmie poprosisz o powtórzenie?",
+        "options": [
+          "ndicela-undincede",
+          "ndicela-uthethe-ungangxami",
+          "andiqondi",
+          "ndicela-uphinde"
+        ],
+        "correctPhraseId": "ndicela-uphinde",
+        "explanation": "Ndicela uphinde. prosi o powtórzenie. Prośba o wolniejsze tempo to Ndicela uthethe ungangxami.; samo Andiqondi. informuje, że nie rozumiesz."
+      },
+      {
+        "id": "respond-thanks",
+        "prompt": "Ktoś dziękuje ci za pomoc. Jak odpowiesz, odwzajemniając podziękowanie?",
+        "options": [
+          "nam-ndiyabulela",
+          "ndicela-amanzi",
+          "uxolo-tata",
+          "hayi-enkosi"
+        ],
+        "correctPhraseId": "nam-ndiyabulela",
+        "explanation": "Nam ndiyabulela. odwzajemnia podziękowanie, w tej sytuacji jak „Cała przyjemność po mojej stronie”. Ndicela służy do proszenia o coś."
+      },
+      {
+        "id": "greet-peer",
+        "prompt": "Witasz znajomą kobietę w podobnym wieku. Jaką przyjazną formę z lekcji wybierzesz?",
+        "options": ["molo-tata", "molo-bhuti", "molo-sisi", "molo-makhulu"],
+        "correctPhraseId": "molo-sisi",
+        "explanation": "Sisi, dosłownie „siostra”, pasuje do kobiety w podobnym wieku; bhuti do mężczyzny. Te formy mogą odnosić się także do osób spoza rodziny."
+      },
+      {
+        "id": "greet-elder",
+        "prompt": "Młodsza osoba wita mężczyznę z pokolenia dziadków. Która z poznanych form uwzględnia ten wiek i szacunek?",
+        "options": [
+          "molo-makhulu",
+          "molo-tatomkhulu",
+          "molo-bhuti",
+          "molo-sisi"
+        ],
+        "correctPhraseId": "molo-tatomkhulu",
+        "explanation": "Tat’omkhulu to forma do mężczyzny z pokolenia dziadków; makhulu do kobiety. Młodsza osoba zwyczajowo wita starszą jako pierwsza."
+      },
+      {
+        "id": "one-leaves",
+        "prompt": "Zostajesz w domu. Jedna osoba wychodzi. Jak ją pożegnasz?",
+        "options": [
+          "sala-kakuhle",
+          "salani-kakuhle",
+          "hamba-kakuhle",
+          "hambani-kakuhle"
+        ],
+        "correctPhraseId": "hamba-kakuhle",
+        "explanation": "Hamba kakuhle! kierujesz do jednej odchodzącej osoby. Sala kakuhle! usłyszy osoba, która zostaje. O wyborze decyduje to, kto odchodzi."
+      },
+      {
+        "id": "group-stays",
+        "prompt": "Kończysz wizytę i wychodzisz. Kilkoro gospodarzy zostaje. Co powiesz do wszystkich?",
+        "options": [
+          "hambani-kakuhle",
+          "sala-kakuhle",
+          "hamba-kakuhle",
+          "salani-kakuhle"
+        ],
+        "correctPhraseId": "salani-kakuhle",
+        "explanation": "Salani kakuhle! żegna zostającą grupę. Hambani kakuhle! byłoby skierowane do odchodzącej grupy. Końcówka -ni odróżnia tu kilka osób od jednej."
+      },
+      {
+        "id": "good-night",
+        "prompt": "Dziecko idzie spać. Jak życzysz mu dobrej nocy?",
+        "options": ["ulale-kamnandi", "molo", "ninjani", "ndicela-uphinde"],
+        "correctPhraseId": "ulale-kamnandi",
+        "explanation": "Ulale kamnandi! to życzenie dobrego snu jednej osobie. Przy wieczornym powitaniu użyjesz Molo!, tak samo jak rano."
+      },
+      {
+        "id": "polite-refusal",
+        "prompt": "Gospodarz proponuje dokładkę, ale masz już dość. Jak odmówisz z podziękowaniem?",
+        "options": [
+          "enkosi-kakhulu",
+          "nam-ndiyabulela",
+          "ndicela-amanzi",
+          "hayi-enkosi"
+        ],
+        "correctPhraseId": "hayi-enkosi",
+        "explanation": "Hayi, enkosi. łączy „nie” z „dziękuję”. Możesz uprzejmie odmówić zarówno rówieśnikowi, jak i osobie starszej."
+      }
+    ]
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "model": "UBC-NLP/Simba-TTS-xho",
+  "revision": "1bd104d6fe7a687bbc1e9b36031ab51d605e151c",
+  "license": "CC-BY-4.0",
+  "synthetic": true,
+  "sampleRate": 16000,
+  "seed": 1337,
+  "referenceSeeds": [
+    1337,
+    7331,
+    7332
+  ],
+  "testSeed": 2026
+}

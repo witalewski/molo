@@ -1,0 +1,14 @@
+[project]
+name = "molo-voice-assets"
+version = "1.0.0"
+description = "Reproducible generation of isiXhosa lesson audio with Simba TTS"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+  "torch==2.9.0",
+  "transformers==4.57.1",
+  "scipy==1.16.2",
+  "soundfile==0.13.1",
+]
+
+[tool.uv]
+package = false

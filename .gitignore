@@ -1,0 +1,11 @@
+node_modules/
+dist/
+models/
+.venv/
+playwright-report/
+test-results/
+.env
+.DS_Store
+*.tsbuildinfo
+.certs/
+test-results-lan/
