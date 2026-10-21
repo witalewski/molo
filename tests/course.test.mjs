@@ -1,6 +1,7 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import fs from "node:fs";
+import { createHash } from "node:crypto";
 import {
   course,
   modules,
@@ -13,7 +14,7 @@ import {
 import {
   parseWav,
   referenceFiles,
-  REFERENCE_SEEDS,
+  REFERENCE_VARIANTS,
 } from "../server/speech.mjs";
 
 test("module one contains the existing two lessons followed by exactly three new lessons", () => {
@@ -77,8 +78,59 @@ test("every phrase has both a usable reference and an independently generated vo
       new URL("../public/audio/provenance.json", import.meta.url),
     ),
   );
-  assert.deepEqual(provenance.referenceSeeds, REFERENCE_SEEDS);
-  assert.ok(!REFERENCE_SEEDS.includes(provenance.testSeed));
+  assert.deepEqual(
+    provenance.referenceVariants.map((variant) => variant.id),
+    REFERENCE_VARIANTS,
+  );
+  assert.ok(!REFERENCE_VARIANTS.includes(provenance.testSeed));
+});
+
+test("the complete live bank matches one pinned synthetic voice and independently seeded fixtures", () => {
+  const read = (name) =>
+    fs.readFileSync(new URL(`../${name}`, import.meta.url));
+  const hash = (bytes) => createHash("sha256").update(bytes).digest("hex");
+  const manifest = JSON.parse(read("public/audio/provenance.json"));
+  const standard = JSON.parse(read("scripts/audio-standard.json"));
+  assert.equal(manifest.status, "in-use");
+  assert.equal(manifest.synthetic, true);
+  assert.equal(manifest.completeUtterances, true);
+  assert.deepEqual(manifest.standard, standard);
+  assert.equal(manifest.revision, standard.model.revision);
+  assert.equal(hash(read(standard.voice.file)), standard.voice.sha256);
+  assert.equal(hash(read("uv.lock")), manifest.dependencyLockSha256);
+  assert.equal(
+    hash(read("scripts/generate-uniform-audio.py")),
+    manifest.generatorSha256,
+  );
+  assert.equal(manifest.files.length, 129);
+  assert.equal(new Set(manifest.files.map((item) => item.file)).size, 129);
+  for (const item of manifest.files) {
+    const file = item.file.startsWith("audio/")
+      ? `public/${item.file}`
+      : `tests/${item.file}`;
+    assert.equal(hash(read(file)), item.sha256, file);
+    assert.equal(
+      item.seed,
+      item.role === "reference" ? standard.seed : standard.testSeed,
+    );
+  }
+  for (const phrase of phrases) {
+    const records = manifest.files.filter((item) => item.id === phrase.id);
+    assert.equal(records.length, 4, phrase.id);
+    assert.ok(records.every((item) => item.text === phrase.xh));
+    assert.equal(
+      new Set(
+        records
+          .filter((item) => item.role === "reference")
+          .map((item) => item.sourceSha256),
+      ).size,
+      1,
+    );
+    assert.notEqual(
+      records[0].sourceSha256,
+      records.find((item) => item.role === "independent-test").sourceSha256,
+    );
+  }
 });
 
 test("lessons unlock in sequence and existing two-lesson progress unlocks lesson three", () => {

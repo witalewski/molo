@@ -11,6 +11,11 @@
     "test": "node --test tests/*.test.mjs",
     "test:e2e": "playwright test",
     "test:voice": "node --test tests/voice.corpus.mjs",
+    "audit:audio": "node scripts/audit-audio.mjs",
+    "audio:plan": "uv run --locked python scripts/generate-uniform-audio.py --plan",
+    "audio:generate": "uv run --locked python scripts/generate-uniform-audio.py --generate",
+    "audio:review": "node scripts/review-audio.mjs",
+    "test:audio-generation": "uv run --locked python tests/audio-generation.test.py",
     "test:all": "npm test && npm run build && npm run test:voice && npm run test:e2e",
     "voice:setup": "node scripts/setup-voice.mjs"
   },

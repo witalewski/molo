@@ -1,14 +1,2180 @@
 {
-  "model": "UBC-NLP/Simba-TTS-xho",
-  "revision": "1bd104d6fe7a687bbc1e9b36031ab51d605e151c",
-  "license": "CC-BY-4.0",
-  "synthetic": true,
-  "sampleRate": 16000,
-  "seed": 1337,
-  "referenceSeeds": [
-    1337,
-    7331,
-    7332
+  "completeUtterances": true,
+  "courseSha256": "0acd841640cdf0ae47bb2166bb79ec044388fe71d6434ff2b520187e238f09ea",
+  "dependencyLockSha256": "b419c8d1ee382f74d142cd87d522596213966fb8d84eb5caeec6e8c0e34aaabc",
+  "deployment": {
+    "acceptedKnownAsrDiscrepancies": true,
+    "date": "2026-10-21",
+    "humanPhoneticReview": false,
+    "reason": "User selected the uniform free bank after comparing it with the previous recordings."
+  },
+  "files": [
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4038274556,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/molo.wav",
+      "id": "molo",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "2002d5f2c9585f8a8ceb8e53ab5373d7cc5e1b9b415b3a73c601565fee0ad2b4",
+      "sourceSha256": "0812094fdb9840d3fcd8a4a31a4ad5fa42763b326c8d47b3f5d02280d5184600",
+      "speed": 1.0,
+      "text": "Molo!"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4038274556,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/variants/molo-7331.wav",
+      "id": "molo",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "c47b53212f9a1485b031829c0628bc4249fb43e8ffd860aec2e4d873bf09d43c",
+      "sourceSha256": "0812094fdb9840d3fcd8a4a31a4ad5fa42763b326c8d47b3f5d02280d5184600",
+      "speed": 0.96,
+      "text": "Molo!"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4038274556,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/variants/molo-7332.wav",
+      "id": "molo",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "e83d40ec85caf63d8550dd34210943ec054f2626bc9a8ad8b762a9c46e8512ec",
+      "sourceSha256": "0812094fdb9840d3fcd8a4a31a4ad5fa42763b326c8d47b3f5d02280d5184600",
+      "speed": 1.04,
+      "text": "Molo!"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4052769664,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/molweni.wav",
+      "id": "molweni",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "b454d872d559118162c3e980d97c6b5b7e6814fe9dfcf21434a2d356db66e4de",
+      "sourceSha256": "fb18df1997ee68e3a7a9c14641267c7e74db830044013f997db5666fac45062d",
+      "speed": 1.0,
+      "text": "Molweni!"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4052769664,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/variants/molweni-7331.wav",
+      "id": "molweni",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "24bd44a71c94ce334a0e3cacdce1ea2c931b0737828b132e3e0105813825304d",
+      "sourceSha256": "fb18df1997ee68e3a7a9c14641267c7e74db830044013f997db5666fac45062d",
+      "speed": 0.96,
+      "text": "Molweni!"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4052769664,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/variants/molweni-7332.wav",
+      "id": "molweni",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "e38315c1642b5dc7bb5bc63dcb2c60417093a0f76bfb0e09b14d7fadeb279da7",
+      "sourceSha256": "fb18df1997ee68e3a7a9c14641267c7e74db830044013f997db5666fac45062d",
+      "speed": 1.04,
+      "text": "Molweni!"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4221030880,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/molo-tata.wav",
+      "id": "molo-tata",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "237450f67f551c45ed247c5a7eee410c67dbfef5a02a9c4e8db6ed3fdd998582",
+      "sourceSha256": "9cc5b8a4b0efefb69f962407366c3a0938dd658339d97a6fdb82d4fc45e22789",
+      "speed": 1.0,
+      "text": "Molo, tata!"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4221030880,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/variants/molo-tata-7331.wav",
+      "id": "molo-tata",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "5a02625b60f8910b57ab452a15e82d1d281e125e1c582fc1ac7e966eefb77da6",
+      "sourceSha256": "9cc5b8a4b0efefb69f962407366c3a0938dd658339d97a6fdb82d4fc45e22789",
+      "speed": 0.96,
+      "text": "Molo, tata!"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4221030880,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/variants/molo-tata-7332.wav",
+      "id": "molo-tata",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "e9f80f6015f67aa0b7f14c778644a7af6f3d01b7eda0ec127d141ea0d9354231",
+      "sourceSha256": "9cc5b8a4b0efefb69f962407366c3a0938dd658339d97a6fdb82d4fc45e22789",
+      "speed": 1.04,
+      "text": "Molo, tata!"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4221030880,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/molo-mama.wav",
+      "id": "molo-mama",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "dbf5d60defde4f9e781e1ac0ed2e02c2dc1d0ef9e563aaef68e51be142498b68",
+      "sourceSha256": "76cc31b746b3fa898cb9a0ca069250562f822c5a08cc319aa40955606a7833ca",
+      "speed": 1.0,
+      "text": "Molo, mama!"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4221030880,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/variants/molo-mama-7331.wav",
+      "id": "molo-mama",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "3dd433e2960a2907efd57f89cdd7317a917d4fc31e221c5c68a4f89c19820e76",
+      "sourceSha256": "76cc31b746b3fa898cb9a0ca069250562f822c5a08cc319aa40955606a7833ca",
+      "speed": 0.96,
+      "text": "Molo, mama!"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4221030880,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/variants/molo-mama-7332.wav",
+      "id": "molo-mama",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "b938b9f51eb3b6f03affbe453eeeb04019828fe4c7bb2c1aaee2d578905a1662",
+      "sourceSha256": "76cc31b746b3fa898cb9a0ca069250562f822c5a08cc319aa40955606a7833ca",
+      "speed": 1.04,
+      "text": "Molo, mama!"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4221030880,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/hamba-kakuhle.wav",
+      "id": "hamba-kakuhle",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "e9fd5ad9ccb1f68d11ee7d0f2e127b911b1b1d1e1f4b75f52f0e454ee869fd65",
+      "sourceSha256": "ddc9896655d196e25d3212a7bef68bd94bc9396f1f95569be36f227e8aa8b8f0",
+      "speed": 1.0,
+      "text": "Hamba kakuhle!"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4221030880,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/variants/hamba-kakuhle-7331.wav",
+      "id": "hamba-kakuhle",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "4779d64ccfc05ebe002a9c36390ee8f343d872de5bc26fb1377a15126788ea58",
+      "sourceSha256": "ddc9896655d196e25d3212a7bef68bd94bc9396f1f95569be36f227e8aa8b8f0",
+      "speed": 0.96,
+      "text": "Hamba kakuhle!"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4221030880,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/variants/hamba-kakuhle-7332.wav",
+      "id": "hamba-kakuhle",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "4b58e8d7cbdb1ba2f11739ea05ecc908cada3aaf53af8761e68d48b64024eb62",
+      "sourceSha256": "ddc9896655d196e25d3212a7bef68bd94bc9396f1f95569be36f227e8aa8b8f0",
+      "speed": 1.04,
+      "text": "Hamba kakuhle!"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4221030880,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/sala-kakuhle.wav",
+      "id": "sala-kakuhle",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "15ef7cba510be5153f43d0f2c3ce60537904170b55695ecfbb64d9fdc0dc8a4e",
+      "sourceSha256": "1e7655e49394082c7a44035c4588dc51f6f98c281eb2364baa2438d8812e7731",
+      "speed": 1.0,
+      "text": "Sala kakuhle!"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4221030880,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/variants/sala-kakuhle-7331.wav",
+      "id": "sala-kakuhle",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "fd9cfdce1d0d90c02b168756b7ea1710fc490b4813506b26426b76d7fe9462e9",
+      "sourceSha256": "1e7655e49394082c7a44035c4588dc51f6f98c281eb2364baa2438d8812e7731",
+      "speed": 0.96,
+      "text": "Sala kakuhle!"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4221030880,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/variants/sala-kakuhle-7332.wav",
+      "id": "sala-kakuhle",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "a39cea77304066a9a1d5c85b12884cd44fd37269f489f00e62471b5d0f467724",
+      "sourceSha256": "1e7655e49394082c7a44035c4588dc51f6f98c281eb2364baa2438d8812e7731",
+      "speed": 1.04,
+      "text": "Sala kakuhle!"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4221030880,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/enkosi.wav",
+      "id": "enkosi",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "5f580d87a8773e857cf0dcc3e77bfa517a16f4edd703fa3a9140489cbb6527de",
+      "sourceSha256": "74290bca6293b8754dd57fd9d70ecc2b156ccabf40b518abb153db930b41d350",
+      "speed": 1.0,
+      "text": "Enkosi!"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4221030880,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/variants/enkosi-7331.wav",
+      "id": "enkosi",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "87aaacfccf1deb85b076db98613e589754e58931d67d864824be77a7b6872d51",
+      "sourceSha256": "74290bca6293b8754dd57fd9d70ecc2b156ccabf40b518abb153db930b41d350",
+      "speed": 0.96,
+      "text": "Enkosi!"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4221030880,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/variants/enkosi-7332.wav",
+      "id": "enkosi",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "037b1f00e50bb2a18cdbbb4700ac4034cf23547070f30c96452d283676f2f805",
+      "sourceSha256": "74290bca6293b8754dd57fd9d70ecc2b156ccabf40b518abb153db930b41d350",
+      "speed": 1.04,
+      "text": "Enkosi!"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4221030880,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/enkosi-kakhulu.wav",
+      "id": "enkosi-kakhulu",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "eb39aa2331053d7fae7951d6d5812da3be8e8c27a1974d125b5d3f2445393048",
+      "sourceSha256": "2440c1a39ee019578443aee8d7c4a3e8914622040656686b76f7d0f93dc1b467",
+      "speed": 1.0,
+      "text": "Enkosi kakhulu!"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4221030880,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/variants/enkosi-kakhulu-7331.wav",
+      "id": "enkosi-kakhulu",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "4e4e9504899b6e1767899700d93696838dbdb6b0499acc63b8167bd6d067baea",
+      "sourceSha256": "2440c1a39ee019578443aee8d7c4a3e8914622040656686b76f7d0f93dc1b467",
+      "speed": 0.96,
+      "text": "Enkosi kakhulu!"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4221030880,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/variants/enkosi-kakhulu-7332.wav",
+      "id": "enkosi-kakhulu",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "dd103d29690b2a613a38ef6e7f5b4f4ea303acbf25326ffc47dba974ffc599d1",
+      "sourceSha256": "2440c1a39ee019578443aee8d7c4a3e8914622040656686b76f7d0f93dc1b467",
+      "speed": 1.04,
+      "text": "Enkosi kakhulu!"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4237692452,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/enkosi-tata.wav",
+      "id": "enkosi-tata",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "0babab99a22dcd78c050eec395f0d777a081197e17af6bdda59ae52c9b9d706f",
+      "sourceSha256": "dd361236eb1e1d414d6af26828263b7de748b12333d9d7a9343c17f9e23de620",
+      "speed": 1.0,
+      "text": "Enkosi, tata!"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4237692452,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/variants/enkosi-tata-7331.wav",
+      "id": "enkosi-tata",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "23077dbf0d6b557a607653ceb78feff798836de97a1ca1ad62e3b640cbcd36c5",
+      "sourceSha256": "dd361236eb1e1d414d6af26828263b7de748b12333d9d7a9343c17f9e23de620",
+      "speed": 0.96,
+      "text": "Enkosi, tata!"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4237692452,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/variants/enkosi-tata-7332.wav",
+      "id": "enkosi-tata",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "d6ae2a6ee0379ee7ffc26ecba64cb040086a7edf266267f5727259e926111360",
+      "sourceSha256": "dd361236eb1e1d414d6af26828263b7de748b12333d9d7a9343c17f9e23de620",
+      "speed": 1.04,
+      "text": "Enkosi, tata!"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4237692452,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/enkosi-mama.wav",
+      "id": "enkosi-mama",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "a29f0d5f60946bd31852efc4b5b3a4484d7df4f4c8dd452d3e0e3dd1d988baf6",
+      "sourceSha256": "98f1715d87c3e98f070e152cefef8493a6af6e3da65e7d733931a55c001b3f03",
+      "speed": 1.0,
+      "text": "Enkosi, mama!"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4237692452,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/variants/enkosi-mama-7331.wav",
+      "id": "enkosi-mama",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "21f0498006f5d16ade3852900419fcdfd8af2212432ea9314a8d745a989ac17f",
+      "sourceSha256": "98f1715d87c3e98f070e152cefef8493a6af6e3da65e7d733931a55c001b3f03",
+      "speed": 0.96,
+      "text": "Enkosi, mama!"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4237692452,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/variants/enkosi-mama-7332.wav",
+      "id": "enkosi-mama",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "49c73f5af842686550ec13697a1690bfc39967f095af96e4212583e0fc802e03",
+      "sourceSha256": "98f1715d87c3e98f070e152cefef8493a6af6e3da65e7d733931a55c001b3f03",
+      "speed": 1.04,
+      "text": "Enkosi, mama!"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4237692452,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/uxolo-tata.wav",
+      "id": "uxolo-tata",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "f5859d72169afbf43511388afcc29fd3e4d79dcdae6d8f2e2db2daee48108645",
+      "sourceSha256": "85f2eec686b27b2698f63a47af77ab8858cf1656a41d3cbefb13b0716a9ba411",
+      "speed": 1.0,
+      "text": "Uxolo, tata!"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4237692452,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/variants/uxolo-tata-7331.wav",
+      "id": "uxolo-tata",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "f798f243825f2d37cef283e232ba87678aeeb10cf006cd90dacc4c7805da9ff1",
+      "sourceSha256": "85f2eec686b27b2698f63a47af77ab8858cf1656a41d3cbefb13b0716a9ba411",
+      "speed": 0.96,
+      "text": "Uxolo, tata!"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4237692452,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/variants/uxolo-tata-7332.wav",
+      "id": "uxolo-tata",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "9fbda4ac0bb2a6c76a467323e76e3c92711782091e673e153943c990555c2e7c",
+      "sourceSha256": "85f2eec686b27b2698f63a47af77ab8858cf1656a41d3cbefb13b0716a9ba411",
+      "speed": 1.04,
+      "text": "Uxolo, tata!"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4237692452,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/uxolo-mama.wav",
+      "id": "uxolo-mama",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "d8022480ee720a965a714e22c93f24a7a3f9d2207e8fac6186592e2631712749",
+      "sourceSha256": "253a48fd85792dd6827cc996942e409c0918d3ef7331a9b675fdb764c1695eb7",
+      "speed": 1.0,
+      "text": "Uxolo, mama!"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4237692452,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/variants/uxolo-mama-7331.wav",
+      "id": "uxolo-mama",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "ad761fe8cc3ea931945fa28b4ea8896a6a699e62aec8c9690d1161e3830b082c",
+      "sourceSha256": "253a48fd85792dd6827cc996942e409c0918d3ef7331a9b675fdb764c1695eb7",
+      "speed": 0.96,
+      "text": "Uxolo, mama!"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4237692452,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/variants/uxolo-mama-7332.wav",
+      "id": "uxolo-mama",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "d373a83bc31c12f5b249149df23f5e1ec35c95efc1a2c38304b0abed4944b344",
+      "sourceSha256": "253a48fd85792dd6827cc996942e409c0918d3ef7331a9b675fdb764c1695eb7",
+      "speed": 1.04,
+      "text": "Uxolo, mama!"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4237692452,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/unjani.wav",
+      "id": "unjani",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "b16f24cdc9fb66289ceccb76f30030358cf07b46151c6111dd6ee0e28fc2cd1e",
+      "sourceSha256": "950263b688c026e901019b842c70665d854033a5be65acfbb41abde46be11282",
+      "speed": 1.0,
+      "text": "Unjani?"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4237692452,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/variants/unjani-7331.wav",
+      "id": "unjani",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "de596e80ac6f96f9f86c9148bcc73b57caf70732db05a79bd84efc6b3e1ae89c",
+      "sourceSha256": "950263b688c026e901019b842c70665d854033a5be65acfbb41abde46be11282",
+      "speed": 0.96,
+      "text": "Unjani?"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4237692452,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/variants/unjani-7332.wav",
+      "id": "unjani",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "b48bb83caac764b62f0eb204cbe135da920e0df761b4b3c85af0b83706b1086c",
+      "sourceSha256": "950263b688c026e901019b842c70665d854033a5be65acfbb41abde46be11282",
+      "speed": 1.04,
+      "text": "Unjani?"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4339765200,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/ndiphilile-enkosi.wav",
+      "id": "ndiphilile-enkosi",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "2fbdf83efe5c07a51cf78b5b176264bf4afdbcfa710d4370030382f1772c7edd",
+      "sourceSha256": "8f5e834080815278287a590a53cd14b26712c2d9d5d1cb8c113471aaa2a45128",
+      "speed": 1.0,
+      "text": "Ndiphilile, enkosi."
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4339765200,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/variants/ndiphilile-enkosi-7331.wav",
+      "id": "ndiphilile-enkosi",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "df3519ad3c6aa7891112c901c3d93b6e511b60eb4c96bed126eb350aad12ace3",
+      "sourceSha256": "8f5e834080815278287a590a53cd14b26712c2d9d5d1cb8c113471aaa2a45128",
+      "speed": 0.96,
+      "text": "Ndiphilile, enkosi."
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4339765200,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/variants/ndiphilile-enkosi-7332.wav",
+      "id": "ndiphilile-enkosi",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "21473e77c6c3913d4fcf00e7d5892c537c3359e9813d10a20c262c5448e990f1",
+      "sourceSha256": "8f5e834080815278287a590a53cd14b26712c2d9d5d1cb8c113471aaa2a45128",
+      "speed": 1.04,
+      "text": "Ndiphilile, enkosi."
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4339765200,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/wena-unjani.wav",
+      "id": "wena-unjani",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "17d3246af4d4b6bff17b72fb76b35a7887974042d0f1731a2e4572de3f00c0d2",
+      "sourceSha256": "c6baa6eb8ae13dcf15116265ab890475a486a9977f7c9e18519f17a02b876d8f",
+      "speed": 1.0,
+      "text": "Wena unjani?"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4339765200,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/variants/wena-unjani-7331.wav",
+      "id": "wena-unjani",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "b375a3ace1aa1f1ca50aa5ad7e23cbb0971a6b1bb7cb7b9e868a31280e7102ae",
+      "sourceSha256": "c6baa6eb8ae13dcf15116265ab890475a486a9977f7c9e18519f17a02b876d8f",
+      "speed": 0.96,
+      "text": "Wena unjani?"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4339765200,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/variants/wena-unjani-7332.wav",
+      "id": "wena-unjani",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "e2392d9b034f29f34fefdcda11d2fa379f7471f56fbb87b2d936cd0c01ae28dd",
+      "sourceSha256": "c6baa6eb8ae13dcf15116265ab890475a486a9977f7c9e18519f17a02b876d8f",
+      "speed": 1.04,
+      "text": "Wena unjani?"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4339765200,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/nam-ndiphilile.wav",
+      "id": "nam-ndiphilile",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "d0f83e857c163a8787e2d732e3a77fe4ab89b9addc8f4f4a3a570c871644da74",
+      "sourceSha256": "10ccb58dc1daa31eae89d172ff72d463b9c7cab7adbd390b493e12b428feaeb6",
+      "speed": 1.0,
+      "text": "Nam ndiphilile."
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4339765200,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/variants/nam-ndiphilile-7331.wav",
+      "id": "nam-ndiphilile",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "2f02e7aa9addb20b59ddc6dbef13b66bdf34fd8d95e008092ea7cce7502b9552",
+      "sourceSha256": "10ccb58dc1daa31eae89d172ff72d463b9c7cab7adbd390b493e12b428feaeb6",
+      "speed": 0.96,
+      "text": "Nam ndiphilile."
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4339765200,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/variants/nam-ndiphilile-7332.wav",
+      "id": "nam-ndiphilile",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "ac6ea9e48d400c14f804278ab9c336e302c0d9fe52f9580f29f050e488192c10",
+      "sourceSha256": "10ccb58dc1daa31eae89d172ff72d463b9c7cab7adbd390b493e12b428feaeb6",
+      "speed": 1.04,
+      "text": "Nam ndiphilile."
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4339765200,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/ninjani.wav",
+      "id": "ninjani",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "275460b6668fb0b1bac595287e37b223624e8bf31b81348ff8bf32a87fa918e9",
+      "sourceSha256": "72678c8b80762ebc17bc2e20cf08285ee33db589fbb027fd65d9aed19b64eefe",
+      "speed": 1.0,
+      "text": "Ninjani?"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4339765200,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/variants/ninjani-7331.wav",
+      "id": "ninjani",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "e52a27c86ebb2a6dbd6650981c1b3dda4b0fe181fe10c31704d9c1839aa26317",
+      "sourceSha256": "72678c8b80762ebc17bc2e20cf08285ee33db589fbb027fd65d9aed19b64eefe",
+      "speed": 0.96,
+      "text": "Ninjani?"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4339765200,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/variants/ninjani-7332.wav",
+      "id": "ninjani",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "9a17a4f302ae165fd181570a1d363ea3502b716bce482d6a3025ebdbdf217e1a",
+      "sourceSha256": "72678c8b80762ebc17bc2e20cf08285ee33db589fbb027fd65d9aed19b64eefe",
+      "speed": 1.04,
+      "text": "Ninjani?"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4339765200,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/siphilile-enkosi.wav",
+      "id": "siphilile-enkosi",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "5b8455b78ed4595f399e918693184b75e8c83f422b8777f2867101044b19fc3c",
+      "sourceSha256": "10631d3186f0d001ec6e768a614e80e5bc3e1aa143adb77d9c03852b674dbf1c",
+      "speed": 1.0,
+      "text": "Siphilile, enkosi."
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4339765200,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/variants/siphilile-enkosi-7331.wav",
+      "id": "siphilile-enkosi",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "d60cb8d74e593915f530ef9caaea1296367e2320d7c2404de55f43f9edec5ff9",
+      "sourceSha256": "10631d3186f0d001ec6e768a614e80e5bc3e1aa143adb77d9c03852b674dbf1c",
+      "speed": 0.96,
+      "text": "Siphilile, enkosi."
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4339765200,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/variants/siphilile-enkosi-7332.wav",
+      "id": "siphilile-enkosi",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "f1d919a194c8ed28f6943cb334299ae42a26a23e2f6472d188af64069b130172",
+      "sourceSha256": "10631d3186f0d001ec6e768a614e80e5bc3e1aa143adb77d9c03852b674dbf1c",
+      "speed": 1.04,
+      "text": "Siphilile, enkosi."
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4339765200,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/ndicela-amanzi.wav",
+      "id": "ndicela-amanzi",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "61ae7e4d1d0690d8aa4acba618a8ba4d4981768fd7f71a32d6541f869d65bbcc",
+      "sourceSha256": "214261c668c296214a0b2c83f2e1a03131702fe89817f83db9ddfac15c29519a",
+      "speed": 1.0,
+      "text": "Ndicela amanzi."
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4339765200,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/variants/ndicela-amanzi-7331.wav",
+      "id": "ndicela-amanzi",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "16199847daee76aad4f92366d98a0244c578d8ae9f774724326cb3304442a1c9",
+      "sourceSha256": "214261c668c296214a0b2c83f2e1a03131702fe89817f83db9ddfac15c29519a",
+      "speed": 0.96,
+      "text": "Ndicela amanzi."
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4339765200,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/variants/ndicela-amanzi-7332.wav",
+      "id": "ndicela-amanzi",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "e62be789023868d65bb31e2c2eff5cd5b41092c94eb617191b9899114dc5d7c7",
+      "sourceSha256": "214261c668c296214a0b2c83f2e1a03131702fe89817f83db9ddfac15c29519a",
+      "speed": 1.04,
+      "text": "Ndicela amanzi."
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4339765200,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/ndicela-undincede.wav",
+      "id": "ndicela-undincede",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "313450d5a92aefe9416b5ca6a0d380d8e2ab927642c4f91ba3818d8f3186bcbf",
+      "sourceSha256": "d669b33361c17c171acee7739d4cf694cc4e50d36e212ca5366aa84a3064d409",
+      "speed": 1.0,
+      "text": "Ndicela undincede."
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4339765200,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/variants/ndicela-undincede-7331.wav",
+      "id": "ndicela-undincede",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "6dc1b80c9ec9ff22c70ada8a6f5ad70d8e02936a5eb3aa16c195d1abb440dae4",
+      "sourceSha256": "d669b33361c17c171acee7739d4cf694cc4e50d36e212ca5366aa84a3064d409",
+      "speed": 0.96,
+      "text": "Ndicela undincede."
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4339765200,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/variants/ndicela-undincede-7332.wav",
+      "id": "ndicela-undincede",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "322b7c78bdb87b35887733f63ec39912b8dd837dfbedbbfc6743dcb12664191a",
+      "sourceSha256": "d669b33361c17c171acee7739d4cf694cc4e50d36e212ca5366aa84a3064d409",
+      "speed": 1.04,
+      "text": "Ndicela undincede."
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4339765200,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/andiqondi.wav",
+      "id": "andiqondi",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "ec7384c416871641faa881c9fa56210e9c944eba1d3757d4c921a0ad9797e25f",
+      "sourceSha256": "eb91bb89de62f6725380dc3369dad32d19d680dbdeb9a899934e507ad345103f",
+      "speed": 1.0,
+      "text": "Andiqondi."
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4339765200,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/variants/andiqondi-7331.wav",
+      "id": "andiqondi",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "3774cdd6de066ebc45061ed6bf3e0c885a73d2c72b94b50b05a2e6ed6a34678b",
+      "sourceSha256": "eb91bb89de62f6725380dc3369dad32d19d680dbdeb9a899934e507ad345103f",
+      "speed": 0.96,
+      "text": "Andiqondi."
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4339765200,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/variants/andiqondi-7332.wav",
+      "id": "andiqondi",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "1f7607be455a41a401c7e108df81d13296960b29e82434d9c05dded1451fa508",
+      "sourceSha256": "eb91bb89de62f6725380dc3369dad32d19d680dbdeb9a899934e507ad345103f",
+      "speed": 1.04,
+      "text": "Andiqondi."
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4339765200,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/ndicela-uphinde.wav",
+      "id": "ndicela-uphinde",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "66c95519b7ad5b6f0a1f6d05135195adaa2396410d0962dc4c1f7a3ca15a050d",
+      "sourceSha256": "819bda0a7efeb38848c2d2f27dcf5a20bd5733feabcd9b6aff7cc2f3b7ab6d5e",
+      "speed": 1.0,
+      "text": "Ndicela uphinde."
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4339765200,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/variants/ndicela-uphinde-7331.wav",
+      "id": "ndicela-uphinde",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "9e4fba28771de229b5968c3d033e2ada4c6074da6162604c32f3aa2ca3b94902",
+      "sourceSha256": "819bda0a7efeb38848c2d2f27dcf5a20bd5733feabcd9b6aff7cc2f3b7ab6d5e",
+      "speed": 0.96,
+      "text": "Ndicela uphinde."
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4339765200,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/variants/ndicela-uphinde-7332.wav",
+      "id": "ndicela-uphinde",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "3c41621e852422519de94cfaa0a52e3519aa91774e2b45b5871844c44d11e5e8",
+      "sourceSha256": "819bda0a7efeb38848c2d2f27dcf5a20bd5733feabcd9b6aff7cc2f3b7ab6d5e",
+      "speed": 1.04,
+      "text": "Ndicela uphinde."
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4339765200,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/ndicela-uthethe-ungangxami.wav",
+      "id": "ndicela-uthethe-ungangxami",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "eedd9217773bd64684d5b2302c0a6f63e8c7a7cccffb54b251ce3ddf173d05ee",
+      "sourceSha256": "831172f092776c74287f5a261bf3e5d5247419e74481164d8574807675e55f27",
+      "speed": 1.0,
+      "text": "Ndicela uthethe ungangxami."
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4339765200,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/variants/ndicela-uthethe-ungangxami-7331.wav",
+      "id": "ndicela-uthethe-ungangxami",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "46d37542985a38465f386423dfe6e732c2972a72826c6661392b5d0d406e2092",
+      "sourceSha256": "831172f092776c74287f5a261bf3e5d5247419e74481164d8574807675e55f27",
+      "speed": 0.96,
+      "text": "Ndicela uthethe ungangxami."
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4339765200,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/variants/ndicela-uthethe-ungangxami-7332.wav",
+      "id": "ndicela-uthethe-ungangxami",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "8109cccac9658bc65e7b602b9782409066799deb44ba87d5412544074c220ae8",
+      "sourceSha256": "831172f092776c74287f5a261bf3e5d5247419e74481164d8574807675e55f27",
+      "speed": 1.04,
+      "text": "Ndicela uthethe ungangxami."
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4339765200,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/nam-ndiyabulela.wav",
+      "id": "nam-ndiyabulela",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "0702be5edada112b555c879096c65c86370e370d74e9fb267c83d535e8de483a",
+      "sourceSha256": "4a4b2b3bec721cea3bfb67ac5c4c9a6e85616dab1d87e746c22191bfe0aab1da",
+      "speed": 1.0,
+      "text": "Nam ndiyabulela."
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4339765200,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/variants/nam-ndiyabulela-7331.wav",
+      "id": "nam-ndiyabulela",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "5cd0fbd385b959877af8f921072e23626164babfedbda74c0e1937809ffb58a9",
+      "sourceSha256": "4a4b2b3bec721cea3bfb67ac5c4c9a6e85616dab1d87e746c22191bfe0aab1da",
+      "speed": 0.96,
+      "text": "Nam ndiyabulela."
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4339765200,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/variants/nam-ndiyabulela-7332.wav",
+      "id": "nam-ndiyabulela",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "d6d71fe62210150155e06bfb5ffe1fb4a028cf09ea639ccb6b4136062734e4c5",
+      "sourceSha256": "4a4b2b3bec721cea3bfb67ac5c4c9a6e85616dab1d87e746c22191bfe0aab1da",
+      "speed": 1.04,
+      "text": "Nam ndiyabulela."
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4339765200,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/molo-bhuti.wav",
+      "id": "molo-bhuti",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "0eeae6e00a910ad6ffbee0ba4515f5b0a15b5a975da172336d81bf0636c0e5cd",
+      "sourceSha256": "1795e54e236ea14c1208b574448ce8f7eedb15c61994cae57795e1fb15f9e028",
+      "speed": 1.0,
+      "text": "Molo, bhuti!"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4339765200,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/variants/molo-bhuti-7331.wav",
+      "id": "molo-bhuti",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "4874481180ff437ad8567348d78c94f403fb577bff172f0190e0b4239ece6115",
+      "sourceSha256": "1795e54e236ea14c1208b574448ce8f7eedb15c61994cae57795e1fb15f9e028",
+      "speed": 0.96,
+      "text": "Molo, bhuti!"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4339765200,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/variants/molo-bhuti-7332.wav",
+      "id": "molo-bhuti",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "0e6c74297f28da5583ff7eb12488b12464aa4f1e1384052db9d87cbdce51df10",
+      "sourceSha256": "1795e54e236ea14c1208b574448ce8f7eedb15c61994cae57795e1fb15f9e028",
+      "speed": 1.04,
+      "text": "Molo, bhuti!"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4339765200,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/molo-sisi.wav",
+      "id": "molo-sisi",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "1076e35c422fdd6894f5cdae15573c0526f75e1cc7957596068e9da3746925c1",
+      "sourceSha256": "e48f2bdff5eae50e52e2116d9f19d9cfd70bf82579d0749647841e28ac0c4d26",
+      "speed": 1.0,
+      "text": "Molo, sisi!"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4339765200,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/variants/molo-sisi-7331.wav",
+      "id": "molo-sisi",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "88181375cf752744b48294aaaf90b66ed5b50f030c27695cdb06c13f19c6fee8",
+      "sourceSha256": "e48f2bdff5eae50e52e2116d9f19d9cfd70bf82579d0749647841e28ac0c4d26",
+      "speed": 0.96,
+      "text": "Molo, sisi!"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4339765200,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/variants/molo-sisi-7332.wav",
+      "id": "molo-sisi",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "458d55d85d2fb34e984d32ad70dedd312d1cf1cb57e0888f822450e85ee71f12",
+      "sourceSha256": "e48f2bdff5eae50e52e2116d9f19d9cfd70bf82579d0749647841e28ac0c4d26",
+      "speed": 1.04,
+      "text": "Molo, sisi!"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4339765200,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/molo-tatomkhulu.wav",
+      "id": "molo-tatomkhulu",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "7ac80e9327a4dad3ac5a575329d2c9db9921a8780623eb726ace88880feed5f2",
+      "sourceSha256": "f429bf965c97d41f9932ab8d1058567ee8d65c0f59005eea24929fbb7d648e6e",
+      "speed": 1.0,
+      "text": "Molo, tat’omkhulu!"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4339765200,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/variants/molo-tatomkhulu-7331.wav",
+      "id": "molo-tatomkhulu",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "4f0ddd378d4f915f63d54a051a0bc1736ae59161c5ae99c3050d5cd4b5f1f346",
+      "sourceSha256": "f429bf965c97d41f9932ab8d1058567ee8d65c0f59005eea24929fbb7d648e6e",
+      "speed": 0.96,
+      "text": "Molo, tat’omkhulu!"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4339765200,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/variants/molo-tatomkhulu-7332.wav",
+      "id": "molo-tatomkhulu",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "bdf1bb0321222862101b6d459217fdd2463400e60cbfd06c0c0df36023d5d78c",
+      "sourceSha256": "f429bf965c97d41f9932ab8d1058567ee8d65c0f59005eea24929fbb7d648e6e",
+      "speed": 1.04,
+      "text": "Molo, tat’omkhulu!"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4339765200,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/molo-makhulu.wav",
+      "id": "molo-makhulu",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "19218564fc715074549df25096d832fc5a53df2a7eafbbf328e0e51f86ea9150",
+      "sourceSha256": "ffb022cc9f85788940fc7766608b4ab0693f99ef2d48ef917998d33c6cbec749",
+      "speed": 1.0,
+      "text": "Molo, makhulu!"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4339765200,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/variants/molo-makhulu-7331.wav",
+      "id": "molo-makhulu",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "e8d49d706fe87abd77934f2f57a1e44c5ddc94b387bb2b0f7846ad1b7b0074c7",
+      "sourceSha256": "ffb022cc9f85788940fc7766608b4ab0693f99ef2d48ef917998d33c6cbec749",
+      "speed": 0.96,
+      "text": "Molo, makhulu!"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4339765200,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/variants/molo-makhulu-7332.wav",
+      "id": "molo-makhulu",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "eaa9864c834a262b36182ce9e1822e66f60acad9b77ca56f09a5341a39a69cf4",
+      "sourceSha256": "ffb022cc9f85788940fc7766608b4ab0693f99ef2d48ef917998d33c6cbec749",
+      "speed": 1.04,
+      "text": "Molo, makhulu!"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4339765200,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/hambani-kakuhle.wav",
+      "id": "hambani-kakuhle",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "1b12dea3be9a1fa79da87e6ab967809c3f3d40fbdffe2dd3c249194aa08423de",
+      "sourceSha256": "242f19d32b915f8d5269d8ca9423a4631829e18bbed06b38a883673421641996",
+      "speed": 1.0,
+      "text": "Hambani kakuhle!"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4339765200,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/variants/hambani-kakuhle-7331.wav",
+      "id": "hambani-kakuhle",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "21f29508e6ae60fa535ef7125020b64b63c4ce0e26e30b00aa7d5025c50fb6f6",
+      "sourceSha256": "242f19d32b915f8d5269d8ca9423a4631829e18bbed06b38a883673421641996",
+      "speed": 0.96,
+      "text": "Hambani kakuhle!"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4339765200,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/variants/hambani-kakuhle-7332.wav",
+      "id": "hambani-kakuhle",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "4713b0f865c83572dc890efb1447da161bc73206d553394796f72be682eaba08",
+      "sourceSha256": "242f19d32b915f8d5269d8ca9423a4631829e18bbed06b38a883673421641996",
+      "speed": 1.04,
+      "text": "Hambani kakuhle!"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4339765200,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/salani-kakuhle.wav",
+      "id": "salani-kakuhle",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "40e9476f8efcbf3eb169a6448e42f43d1976ba89dd7625c54bb2952ddfcadf1e",
+      "sourceSha256": "53dc7130d2bf415b43c14cf9dae9fd5c33095dce4891c29880f1c8f191a631fa",
+      "speed": 1.0,
+      "text": "Salani kakuhle!"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4339765200,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/variants/salani-kakuhle-7331.wav",
+      "id": "salani-kakuhle",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "3cb0702a0a8949b6697f4e3482ad6f173b35917eb2f0e58e64531afa0f73d97d",
+      "sourceSha256": "53dc7130d2bf415b43c14cf9dae9fd5c33095dce4891c29880f1c8f191a631fa",
+      "speed": 0.96,
+      "text": "Salani kakuhle!"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4339765200,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/variants/salani-kakuhle-7332.wav",
+      "id": "salani-kakuhle",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "09011e51ca07fa6dd9af44f0d717ea0688dc759bb551dc3790c34b1d5b1a7627",
+      "sourceSha256": "53dc7130d2bf415b43c14cf9dae9fd5c33095dce4891c29880f1c8f191a631fa",
+      "speed": 1.04,
+      "text": "Salani kakuhle!"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4339765200,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/ulale-kamnandi.wav",
+      "id": "ulale-kamnandi",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "b6d24fb51dedaf5ef01a0f05b6229da0ec2e8ebfba523f1014b733de5f031c04",
+      "sourceSha256": "53cb883481b173a3e2b25da2858a623455905de5f4f8fbdc8c374199b91f50ae",
+      "speed": 1.0,
+      "text": "Ulale kamnandi!"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4339765200,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/variants/ulale-kamnandi-7331.wav",
+      "id": "ulale-kamnandi",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "c3da235871efd3ba97f9cd1c972ff6255f314bf7620bb25c6a0fe49fd34aa46c",
+      "sourceSha256": "53cb883481b173a3e2b25da2858a623455905de5f4f8fbdc8c374199b91f50ae",
+      "speed": 0.96,
+      "text": "Ulale kamnandi!"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4339765200,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/variants/ulale-kamnandi-7332.wav",
+      "id": "ulale-kamnandi",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "9362e4ffb2d8679cb916ba0f73a2c081de6c4fb3f444bffbe8b6f0bd2d4bff7e",
+      "sourceSha256": "53cb883481b173a3e2b25da2858a623455905de5f4f8fbdc8c374199b91f50ae",
+      "speed": 1.04,
+      "text": "Ulale kamnandi!"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4339765200,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/hayi-enkosi.wav",
+      "id": "hayi-enkosi",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "713aaff5920c2ca23e00cc6cec79095969045e3cb61992c1db0f2d0122d1b3e2",
+      "sourceSha256": "88a617b2ee5ce1040630d4cf33b546574a99638caf6c7c76b1e0a57d870aff5c",
+      "speed": 1.0,
+      "text": "Hayi, enkosi."
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4339765200,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/variants/hayi-enkosi-7331.wav",
+      "id": "hayi-enkosi",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "d6d2c48cb944ff638757525f708b59c7c9fb934a622d51acd00bbee3cebe3102",
+      "sourceSha256": "88a617b2ee5ce1040630d4cf33b546574a99638caf6c7c76b1e0a57d870aff5c",
+      "speed": 0.96,
+      "text": "Hayi, enkosi."
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4339765200,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "audio/variants/hayi-enkosi-7332.wav",
+      "id": "hayi-enkosi",
+      "role": "reference",
+      "seed": 1337,
+      "sha256": "7af37a06cedb6d870055366c028b64d4f6c6cf12191a3499a5acd4adbad67b7a",
+      "sourceSha256": "88a617b2ee5ce1040630d4cf33b546574a99638caf6c7c76b1e0a57d870aff5c",
+      "speed": 1.04,
+      "text": "Hayi, enkosi."
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4339765200,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "fixtures/molo.wav",
+      "id": "molo",
+      "role": "independent-test",
+      "seed": 2026,
+      "sha256": "524c2d9bddc5907762579d4d5b6fb322cef08f29b74369804481c2931559a263",
+      "sourceSha256": "9dc89c75b45783b9e74b23b3a8570d9a03ba406efeba4674c252f8dc77461fce",
+      "speed": 1,
+      "text": "Molo!"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4339765200,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "fixtures/molweni.wav",
+      "id": "molweni",
+      "role": "independent-test",
+      "seed": 2026,
+      "sha256": "a70271cfea41313117951cf01d6a60e2160970929f926eee1ac6efd37f1a4d00",
+      "sourceSha256": "775bfb1c2129d7cddaa4d038359c2152121dae016b77d826c8d2b814153aae93",
+      "speed": 1,
+      "text": "Molweni!"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4339765200,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "fixtures/molo-tata.wav",
+      "id": "molo-tata",
+      "role": "independent-test",
+      "seed": 2026,
+      "sha256": "f904b3b63de6aaf3854e52b61187c20210d012e4ad6ecb29d59823ad78dbf1f4",
+      "sourceSha256": "5e41c168d50b50bf748bc9d3fdb4f8ac9a7b05fe17d36a1f81d8e59e7af1dfc9",
+      "speed": 1,
+      "text": "Molo, tata!"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4339765200,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "fixtures/molo-mama.wav",
+      "id": "molo-mama",
+      "role": "independent-test",
+      "seed": 2026,
+      "sha256": "c1be2001ab12055309cf707c57cf82761ab74e0bc7f38c724d88fb5d0c479a6c",
+      "sourceSha256": "25876915c2923dd85901e46117e3f5cb09f84d4ae533e66f697ffaab4f7dbf8f",
+      "speed": 1,
+      "text": "Molo, mama!"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4339765200,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "fixtures/hamba-kakuhle.wav",
+      "id": "hamba-kakuhle",
+      "role": "independent-test",
+      "seed": 2026,
+      "sha256": "f8d0f01287c7c5eef58706ee7a4776927bd8a6ecbde2c7da906e2fae7149b7e0",
+      "sourceSha256": "d0b4a81304377c7785958bb2d4a69e3407cbc0a0959781ee67137a39a2b5a0a8",
+      "speed": 1,
+      "text": "Hamba kakuhle!"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4339765200,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "fixtures/sala-kakuhle.wav",
+      "id": "sala-kakuhle",
+      "role": "independent-test",
+      "seed": 2026,
+      "sha256": "454da6446da8aca84856a9814e5613f5603ad75b64f54f86e271b36f5c768aef",
+      "sourceSha256": "c72d5f1c843ed5cf9d2cd8cf7e02217364d23036f849673e1ccda488779c17b7",
+      "speed": 1,
+      "text": "Sala kakuhle!"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4339765200,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "fixtures/enkosi.wav",
+      "id": "enkosi",
+      "role": "independent-test",
+      "seed": 2026,
+      "sha256": "a3f72cf600e3ed62b155d1fcc1e6dddb01f0e2f3c2000378b84fbc89e6dbe4ff",
+      "sourceSha256": "93c8a4ab4016a0b73e6a61cda8c85c6da886c43fb2dbcda3915831f5edb7f96c",
+      "speed": 1,
+      "text": "Enkosi!"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4339765200,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "fixtures/enkosi-kakhulu.wav",
+      "id": "enkosi-kakhulu",
+      "role": "independent-test",
+      "seed": 2026,
+      "sha256": "a7aa1e05868696745c1ecf298ff2d8133c861b99064eebd9bbec83594b73a374",
+      "sourceSha256": "d87b825f13677e148b690abeffa019e1f9464341d58d6782c78127b84c4a5393",
+      "speed": 1,
+      "text": "Enkosi kakhulu!"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4339765200,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "fixtures/enkosi-tata.wav",
+      "id": "enkosi-tata",
+      "role": "independent-test",
+      "seed": 2026,
+      "sha256": "e3a0f186ea0d4308357627016186f7318ae4f0453de8b55b23e21d71a283b2a5",
+      "sourceSha256": "8dcbde7fa43371b9ebe4c309ed4e8eb3ff23e90cf3349610d4621056ce0961ba",
+      "speed": 1,
+      "text": "Enkosi, tata!"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4339765200,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "fixtures/enkosi-mama.wav",
+      "id": "enkosi-mama",
+      "role": "independent-test",
+      "seed": 2026,
+      "sha256": "8a21c1939aff2ffd52e7e9a75eea10048fa0877a0ab781b9ff0c22bd42511f4d",
+      "sourceSha256": "771b272fe127468c58758f4182baeaf299f57a2181261309a9d57f8d3ea246d9",
+      "speed": 1,
+      "text": "Enkosi, mama!"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4339765200,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "fixtures/uxolo-tata.wav",
+      "id": "uxolo-tata",
+      "role": "independent-test",
+      "seed": 2026,
+      "sha256": "8b7828514a132d0e4d735b3401a532c7c18b15bfcc2ac9c63e71d4770e82cb1a",
+      "sourceSha256": "2a4b0bac34a7fac187e6db687202d84d8c8006d703a6a9601e8ca348d846a13b",
+      "speed": 1,
+      "text": "Uxolo, tata!"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4339765200,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "fixtures/uxolo-mama.wav",
+      "id": "uxolo-mama",
+      "role": "independent-test",
+      "seed": 2026,
+      "sha256": "f9ff8f7e9521c32c1d4566cb32b19d8222e7a70072d07bd5db68c63efcf681b1",
+      "sourceSha256": "fbedf831f7b724f072de09989ab51cee64d03d4c7b95ee2c545f72d769dd93f7",
+      "speed": 1,
+      "text": "Uxolo, mama!"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4339765200,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "fixtures/unjani.wav",
+      "id": "unjani",
+      "role": "independent-test",
+      "seed": 2026,
+      "sha256": "618b133613749290f59b0d0b0ac368bf9fe7e2c2daa0fe4880f6746c50053004",
+      "sourceSha256": "e1b29be97f5887b881dad89fa4f1cf3f155fbde51b2866e5d395f7447794dc40",
+      "speed": 1,
+      "text": "Unjani?"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4350267408,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "fixtures/ndiphilile-enkosi.wav",
+      "id": "ndiphilile-enkosi",
+      "role": "independent-test",
+      "seed": 2026,
+      "sha256": "f01f4c67caeb97b3156f85d1b20f51a03683523d3e19d205202baae81e7c07f2",
+      "sourceSha256": "dfbfa8bac8fe97adf718ea8ea2e867b0bc4da4ec4cb3912804f50465842fcc44",
+      "speed": 1,
+      "text": "Ndiphilile, enkosi."
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4350267408,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "fixtures/wena-unjani.wav",
+      "id": "wena-unjani",
+      "role": "independent-test",
+      "seed": 2026,
+      "sha256": "723a53a49e363f17768e76c27132a66e7593547a2ba818e85f1a94a59727336d",
+      "sourceSha256": "f6b1af63e45189d0104dd3ac8e6a637a62cc579094b09a5895a9c37ac97f96c7",
+      "speed": 1,
+      "text": "Wena unjani?"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4350267408,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "fixtures/nam-ndiphilile.wav",
+      "id": "nam-ndiphilile",
+      "role": "independent-test",
+      "seed": 2026,
+      "sha256": "08950140faaffc2ad14a8a31c0d953ff6428d5145fde763699195166c379d1a4",
+      "sourceSha256": "5e666aab771bf9e8aa8ed3034e68dafcdca894dbfd633de1c6e1d16982df4e2d",
+      "speed": 1,
+      "text": "Nam ndiphilile."
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4350267408,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "fixtures/ninjani.wav",
+      "id": "ninjani",
+      "role": "independent-test",
+      "seed": 2026,
+      "sha256": "b36cf155c4a0cfca364bfd1df48e49c69eb82535c3e4f50b4d1cd6192801f43d",
+      "sourceSha256": "6375084784b3d62453c079049ddbc8102db074d02293e0c9d2c8f79a3ac9056c",
+      "speed": 1,
+      "text": "Ninjani?"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4350267436,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "fixtures/siphilile-enkosi.wav",
+      "id": "siphilile-enkosi",
+      "role": "independent-test",
+      "seed": 2026,
+      "sha256": "cb206224afe80e2dcaf27529c72d70f6dad146cf843e5ae3dc27175acb4b2234",
+      "sourceSha256": "c557d43d0c9a5c8364d13e496b21ca98a60d1e938cf4bce0df08a459743c3cb7",
+      "speed": 1,
+      "text": "Siphilile, enkosi."
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4350267436,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "fixtures/ndicela-amanzi.wav",
+      "id": "ndicela-amanzi",
+      "role": "independent-test",
+      "seed": 2026,
+      "sha256": "1e0f434debb9c56f8165d1db8121537e45db204862b328746aab93901688d277",
+      "sourceSha256": "4ae5ebee8d4b6a8d14dd8f18df30dbde46a2c61ce370ae3ab061cc674e64be31",
+      "speed": 1,
+      "text": "Ndicela amanzi."
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4350267436,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "fixtures/ndicela-undincede.wav",
+      "id": "ndicela-undincede",
+      "role": "independent-test",
+      "seed": 2026,
+      "sha256": "e021095b5db64bd20a7d102a027b5781a43876d53788a26eaf134e3b41597f17",
+      "sourceSha256": "1e999bdfe56312fe98418743889e611e45972cfff8b86dc9d7175b3bc428fb94",
+      "speed": 1,
+      "text": "Ndicela undincede."
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4350267436,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "fixtures/andiqondi.wav",
+      "id": "andiqondi",
+      "role": "independent-test",
+      "seed": 2026,
+      "sha256": "22bd85cb9815ef48e4424575fc412811adc317a59751507cdd292bcb4669ded9",
+      "sourceSha256": "1036d7aac1e348e056cb4db6478514bd8b94f694ee89867154c041740987555c",
+      "speed": 1,
+      "text": "Andiqondi."
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4350267436,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "fixtures/ndicela-uphinde.wav",
+      "id": "ndicela-uphinde",
+      "role": "independent-test",
+      "seed": 2026,
+      "sha256": "d2150eea519d637c7751fbdb0663c93df33e8991457a603e5db3c118bef6bb72",
+      "sourceSha256": "fe11ec561045f4d3289af3418c7f81609ffc1c9f201265acb45edb0859de20b5",
+      "speed": 1,
+      "text": "Ndicela uphinde."
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4545916468,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "fixtures/ndicela-uthethe-ungangxami.wav",
+      "id": "ndicela-uthethe-ungangxami",
+      "role": "independent-test",
+      "seed": 2026,
+      "sha256": "a8324773bd876ec7d3aee78a8c919a1f83d2c1d691fa47d8b05149c0a95382c8",
+      "sourceSha256": "983655de9f86dc829d22e015d09abe559449ba696c02d02332dc88607efbf9a5",
+      "speed": 1,
+      "text": "Ndicela uthethe ungangxami."
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4545916468,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "fixtures/nam-ndiyabulela.wav",
+      "id": "nam-ndiyabulela",
+      "role": "independent-test",
+      "seed": 2026,
+      "sha256": "8adc0b0c395f8bf735aa497b43c05a342e4dc24351dd953cd878e9cac51cc272",
+      "sourceSha256": "1f5c49da6d97dc2b37f9849fa16c4846837e2a62eabb5d8601a1e7c443e0fc71",
+      "speed": 1,
+      "text": "Nam ndiyabulela."
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4545916468,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "fixtures/molo-bhuti.wav",
+      "id": "molo-bhuti",
+      "role": "independent-test",
+      "seed": 2026,
+      "sha256": "21a8a408cab8a5c50ad7362268174668ea373520d24459a91365820af90ec727",
+      "sourceSha256": "9145efb9a69a2a58a74faf1494584bd656a261abe76c7a26ae3b8b17499d224a",
+      "speed": 1,
+      "text": "Molo, bhuti!"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4545916468,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "fixtures/molo-sisi.wav",
+      "id": "molo-sisi",
+      "role": "independent-test",
+      "seed": 2026,
+      "sha256": "d144ed542fda8fa869c2ed3f17ee7a343882792ff62f17d1838ed4aaf9d6145b",
+      "sourceSha256": "9e8e930d079ed19357ba9a7636861e12fc5c68d183689b1ee25f8ac88092afe7",
+      "speed": 1,
+      "text": "Molo, sisi!"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4545916468,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "fixtures/molo-tatomkhulu.wav",
+      "id": "molo-tatomkhulu",
+      "role": "independent-test",
+      "seed": 2026,
+      "sha256": "73325acfb7b851f6b83a4a487126c32dd398690628e4d2a93a6f8abaacd330d3",
+      "sourceSha256": "0030694c2ad6102510cdd97f2a110db70cf344104da044c6b5baf2ae190accd4",
+      "speed": 1,
+      "text": "Molo, tat’omkhulu!"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4545916468,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "fixtures/molo-makhulu.wav",
+      "id": "molo-makhulu",
+      "role": "independent-test",
+      "seed": 2026,
+      "sha256": "475fd5d3dabc06d6edd2569b4d17013fc0db299d97b72331a820a75a2af00beb",
+      "sourceSha256": "786f64f9bb359232424e8dcd906d2be94ef135fb3711fd185fb53cf7a3618c6b",
+      "speed": 1,
+      "text": "Molo, makhulu!"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4545916468,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "fixtures/hambani-kakuhle.wav",
+      "id": "hambani-kakuhle",
+      "role": "independent-test",
+      "seed": 2026,
+      "sha256": "a47469830bf3cd0b01fac2241775df812e5f1d99808118af045def45d077110d",
+      "sourceSha256": "b1539b11f948f49e25be7cb5d81cd659a4800ee05ad42e4fc3176c68b62e243c",
+      "speed": 1,
+      "text": "Hambani kakuhle!"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4545916468,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "fixtures/salani-kakuhle.wav",
+      "id": "salani-kakuhle",
+      "role": "independent-test",
+      "seed": 2026,
+      "sha256": "251fe885f4558a7febdaf6d9baf5f84ba30e347e46dd18392b509406d6d9b48f",
+      "sourceSha256": "592fe0900847672244a99033421999f0045e682f2ddd4c78d40f2848dbcd6ecc",
+      "speed": 1,
+      "text": "Salani kakuhle!"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4545916468,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "fixtures/ulale-kamnandi.wav",
+      "id": "ulale-kamnandi",
+      "role": "independent-test",
+      "seed": 2026,
+      "sha256": "182d7d8ce3d52277aa252539e442a692bb063d8af86014c20a9721ce7a7aa9c0",
+      "sourceSha256": "15d1ac9a18d5ba73179682f541d87b74e0c0a5693af124aef99a0cc5ddcd702a",
+      "speed": 1,
+      "text": "Ulale kamnandi!"
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4545916468,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "fixtures/hayi-enkosi.wav",
+      "id": "hayi-enkosi",
+      "role": "independent-test",
+      "seed": 2026,
+      "sha256": "cabbc204a3a058904aa56dced33dcc45ffcd98304e45b354cf24a366cc9cd4e8",
+      "sourceSha256": "caa174f9ac89c7ce16ffdeecef8284be08a59bd0574e7838db9fc7a9a3b86653",
+      "speed": 1,
+      "text": "Hayi, enkosi."
+    },
+    {
+      "execution": {
+        "device": "mlx-metal",
+        "metalLimitBytes": 5368709120,
+        "peakMetalBytes": 4545916468,
+        "quantization": "affine-6bit-group64"
+      },
+      "file": "fixtures/wrong-phrase.wav",
+      "id": "wrong-phrase",
+      "role": "independent-test",
+      "seed": 2026,
+      "sha256": "938e378c336d2fcabd550cbd01f3e420a94ff45e7558d3846d1e8dae685bc2c8",
+      "sourceSha256": "80968317b65859eaa069d8dc988f52851ddb6a17366a26284ee09a8c2ea07635",
+      "speed": 1,
+      "text": "Ndifuna ukufunda namhlanje."
+    }
   ],
+  "generatorSha256": "6dd87010d93e85ce70be1b4c69c1260e890e3ecc2cf3ec781edbf170bd1f4b09",
+  "humanPhoneticReview": false,
+  "license": "Boson Higgs TTS 3 Research and Non-Commercial License",
+  "model": "whitelabel/mlx-q6-higgs-tts-3-4b",
+  "referenceVariants": [
+    {
+      "id": 1337,
+      "speed": 1.0
+    },
+    {
+      "id": 7331,
+      "speed": 0.96
+    },
+    {
+      "id": 7332,
+      "speed": 1.04
+    }
+  ],
+  "reproducibility": "Pinned local model, fixed synthetic voice prompt, per-phrase seed, immutable source WAV checksums",
+  "revision": "7a91348cfaf6847e3969c00348b09d2c5fc36c06",
+  "sampleRate": 16000,
+  "schemaVersion": 2,
+  "seed": 1337,
+  "standard": {
+    "codec": {
+      "file": "codec.safetensors",
+      "id": "whitelabel/mlx-q6-higgs-tts-3-4b",
+      "revision": "7a91348cfaf6847e3969c00348b09d2c5fc36c06"
+    },
+    "generation": {
+      "fade_in_ms": 5,
+      "fade_out_ms": 5,
+      "max_new_tokens": 180,
+      "temperature": 0.7,
+      "textPrefix": "",
+      "top_k": 50,
+      "top_p": 0.95
+    },
+    "model": {
+      "fileSha256": {
+        "codec.safetensors": "77015cc4bfce0ed90b497d85f7d43c42e3f269b83bb3e0921fc92d6c1529b74a",
+        "model.safetensors": "56fad56f6574022396674a06e7fe9dabc1983422b4583ad0306414fa191c9291"
+      },
+      "id": "whitelabel/mlx-q6-higgs-tts-3-4b",
+      "license": "Boson Higgs TTS 3 Research and Non-Commercial License",
+      "revision": "7a91348cfaf6847e3969c00348b09d2c5fc36c06",
+      "upstream": "bosonai/higgs-tts-3-4b",
+      "upstreamRevision": "239f63fb7b02b1aa085f98d9efae5e35cc5523e8"
+    },
+    "processing": {
+      "fadeMs": 5,
+      "leadingSilenceMs": 150,
+      "maximumPeakDbfs": -1,
+      "silenceThresholdDbfs": -50,
+      "targetLufs": -20,
+      "trailingSilenceMs": 200,
+      "trimMarginMs": 80,
+      "version": 1
+    },
+    "provider": "local",
+    "references": [
+      {
+        "id": 1337,
+        "speed": 1.0
+      },
+      {
+        "id": 7331,
+        "speed": 0.96
+      },
+      {
+        "id": 7332,
+        "speed": 1.04
+      }
+    ],
+    "resources": {
+      "metalCacheBytes": 67108864,
+      "metalLimitBytes": 5368709120,
+      "minimumFreePercent": 35
+    },
+    "runtime": {
+      "mlx": "0.32.4",
+      "mlx-audio": "0.4.5",
+      "mlx-lm": "0.32.2",
+      "numpy": "2.5.4",
+      "pyloudnorm": "0.1.1",
+      "scipy": "1.16.2",
+      "soundfile": "0.13.1",
+      "transformers": "5.12.1"
+    },
+    "sampleRate": 16000,
+    "schemaVersion": 2,
+    "seed": 1337,
+    "sourceSampleRate": 24000,
+    "testSeed": 2026,
+    "voice": {
+      "file": "scripts/audio-sources/higgs/voice.json",
+      "sha256": "dbc7162ef5408e1e858cfb2019b4219d4ae4152381b1dffff01e46d6a318aa2e"
+    }
+  },
+  "standardSha256": "675853f675ed7447ae4d8c9eefa7474664bd2db3dc6ce66111f249ccb38e06b7",
+  "status": "in-use",
+  "synthetic": true,
   "testSeed": 2026
 }

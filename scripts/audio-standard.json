@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 2,
+  "provider": "local",
+  "model": {
+    "id": "whitelabel/mlx-q6-higgs-tts-3-4b",
+    "revision": "7a91348cfaf6847e3969c00348b09d2c5fc36c06",
+    "upstream": "bosonai/higgs-tts-3-4b",
+    "upstreamRevision": "239f63fb7b02b1aa085f98d9efae5e35cc5523e8",
+    "license": "Boson Higgs TTS 3 Research and Non-Commercial License",
+    "fileSha256": {
+      "model.safetensors": "56fad56f6574022396674a06e7fe9dabc1983422b4583ad0306414fa191c9291",
+      "codec.safetensors": "77015cc4bfce0ed90b497d85f7d43c42e3f269b83bb3e0921fc92d6c1529b74a"
+    }
+  },
+  "runtime": {
+    "mlx": "0.32.4",
+    "mlx-audio": "0.4.5",
+    "mlx-lm": "0.32.2",
+    "transformers": "5.12.1",
+    "numpy": "2.5.4",
+    "scipy": "1.16.2",
+    "soundfile": "0.13.1",
+    "pyloudnorm": "0.1.1"
+  },
+  "voice": {
+    "file": "scripts/audio-sources/higgs/voice.json",
+    "sha256": "dbc7162ef5408e1e858cfb2019b4219d4ae4152381b1dffff01e46d6a318aa2e"
+  },
+  "sampleRate": 16000,
+  "sourceSampleRate": 24000,
+  "seed": 1337,
+  "testSeed": 2026,
+  "generation": {
+    "textPrefix": "",
+    "max_new_tokens": 180,
+    "temperature": 0.7,
+    "top_p": 0.95,
+    "top_k": 50,
+    "fade_in_ms": 5,
+    "fade_out_ms": 5
+  },
+  "processing": {
+    "version": 1,
+    "targetLufs": -20,
+    "maximumPeakDbfs": -1,
+    "silenceThresholdDbfs": -50,
+    "trimMarginMs": 80,
+    "fadeMs": 5,
+    "leadingSilenceMs": 150,
+    "trailingSilenceMs": 200
+  },
+  "references": [
+    {
+      "id": 1337,
+      "speed": 1.0
+    },
+    {
+      "id": 7331,
+      "speed": 0.96
+    },
+    {
+      "id": 7332,
+      "speed": 1.04
+    }
+  ],
+  "codec": {
+    "id": "whitelabel/mlx-q6-higgs-tts-3-4b",
+    "revision": "7a91348cfaf6847e3969c00348b09d2c5fc36c06",
+    "file": "codec.safetensors"
+  },
+  "resources": {
+    "metalLimitBytes": 5368709120,
+    "metalCacheBytes": 67108864,
+    "minimumFreePercent": 35
+  }
+}

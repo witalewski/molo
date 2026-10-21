@@ -10,14 +10,14 @@ export const MODEL_ID = "OpenVoiceOS/misterkissi-w2v2-lg-xls-r-300m-xhosa-onnx";
 const directory = path.resolve(import.meta.dirname, "../models/xhosa-asr");
 let sessionPromise;
 let vocabulary;
-export const REFERENCE_SEEDS = [1337, 7331, 7332];
+export const REFERENCE_VARIANTS = [1337, 7331, 7332];
 export function referenceFiles(phraseId) {
   return [
     new URL(`../public/audio/${phraseId}.wav`, import.meta.url),
-    ...REFERENCE_SEEDS.slice(1).map(
-      (seed) =>
+    ...REFERENCE_VARIANTS.slice(1).map(
+      (variant) =>
         new URL(
-          `../public/audio/variants/${phraseId}-${seed}.wav`,
+          `../public/audio/variants/${phraseId}-${variant}.wav`,
           import.meta.url,
         ),
     ),

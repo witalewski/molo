@@ -1,0 +1,240 @@
+{
+  "method": "Existing speech classifier with only staged references; separate generation seed for test speech",
+  "humanPhoneticReview": false,
+  "pairs": 1024,
+  "negativeTargets": 32,
+  "silenceRms": 0,
+  "passed": true,
+  "recordings": [
+    {
+      "id": "molo",
+      "rawTranscript": "molo",
+      "accepted": [
+        "molo"
+      ]
+    },
+    {
+      "id": "molweni",
+      "rawTranscript": "molwini",
+      "accepted": [
+        "molweni"
+      ]
+    },
+    {
+      "id": "molo-tata",
+      "rawTranscript": "molo kada",
+      "accepted": [
+        "molo-tata"
+      ]
+    },
+    {
+      "id": "molo-mama",
+      "rawTranscript": "molo mama",
+      "accepted": [
+        "molo-mama"
+      ]
+    },
+    {
+      "id": "hamba-kakuhle",
+      "rawTranscript": "hamba ka kuhle",
+      "accepted": [
+        "hamba-kakuhle"
+      ]
+    },
+    {
+      "id": "sala-kakuhle",
+      "rawTranscript": "sala ka kuhle",
+      "accepted": [
+        "sala-kakuhle"
+      ]
+    },
+    {
+      "id": "enkosi",
+      "rawTranscript": "inkosi",
+      "accepted": [
+        "enkosi"
+      ]
+    },
+    {
+      "id": "enkosi-kakhulu",
+      "rawTranscript": "enkosi kakhulu",
+      "accepted": [
+        "enkosi-kakhulu"
+      ]
+    },
+    {
+      "id": "enkosi-tata",
+      "rawTranscript": "inkosi tat a",
+      "accepted": [
+        "enkosi-tata"
+      ]
+    },
+    {
+      "id": "enkosi-mama",
+      "rawTranscript": "inkosi imama",
+      "accepted": [
+        "enkosi-mama"
+      ]
+    },
+    {
+      "id": "uxolo-tata",
+      "rawTranscript": "ucolo ca da",
+      "accepted": [
+        "uxolo-tata"
+      ]
+    },
+    {
+      "id": "uxolo-mama",
+      "rawTranscript": "uxolo mama",
+      "accepted": [
+        "uxolo-mama"
+      ]
+    },
+    {
+      "id": "unjani",
+      "rawTranscript": "unjani",
+      "accepted": [
+        "unjani"
+      ]
+    },
+    {
+      "id": "ndiphilile-enkosi",
+      "rawTranscript": "ndiphilile inkosi",
+      "accepted": [
+        "ndiphilile-enkosi"
+      ]
+    },
+    {
+      "id": "wena-unjani",
+      "rawTranscript": "wena unjani",
+      "accepted": [
+        "wena-unjani"
+      ]
+    },
+    {
+      "id": "nam-ndiphilile",
+      "rawTranscript": "nam ndiphilile",
+      "accepted": [
+        "nam-ndiphilile"
+      ]
+    },
+    {
+      "id": "ninjani",
+      "rawTranscript": "ninjani",
+      "accepted": [
+        "ninjani"
+      ]
+    },
+    {
+      "id": "siphilile-enkosi",
+      "rawTranscript": "sifilile inkosi",
+      "accepted": [
+        "siphilile-enkosi"
+      ]
+    },
+    {
+      "id": "ndicela-amanzi",
+      "rawTranscript": "nditse la amanzi",
+      "accepted": [
+        "ndicela-amanzi"
+      ]
+    },
+    {
+      "id": "ndicela-undincede",
+      "rawTranscript": "ndi tsela undincede",
+      "accepted": [
+        "ndicela-undincede"
+      ]
+    },
+    {
+      "id": "andiqondi",
+      "rawTranscript": "andikondi",
+      "accepted": [
+        "andiqondi"
+      ]
+    },
+    {
+      "id": "ndicela-uphinde",
+      "rawTranscript": "ndi xela uphinde",
+      "accepted": [
+        "ndicela-uphinde"
+      ]
+    },
+    {
+      "id": "ndicela-uthethe-ungangxami",
+      "rawTranscript": "ndicela uthethe ungancami",
+      "accepted": [
+        "ndicela-uthethe-ungangxami"
+      ]
+    },
+    {
+      "id": "nam-ndiyabulela",
+      "rawTranscript": "nam ndiya bulela",
+      "accepted": [
+        "nam-ndiyabulela"
+      ]
+    },
+    {
+      "id": "molo-bhuti",
+      "rawTranscript": "malo budi",
+      "accepted": [
+        "molo-bhuti"
+      ]
+    },
+    {
+      "id": "molo-sisi",
+      "rawTranscript": "molo si si",
+      "accepted": [
+        "molo-sisi"
+      ]
+    },
+    {
+      "id": "molo-tatomkhulu",
+      "rawTranscript": "malo tath omkhulu",
+      "accepted": [
+        "molo-tatomkhulu"
+      ]
+    },
+    {
+      "id": "molo-makhulu",
+      "rawTranscript": "molo makhu lu",
+      "accepted": [
+        "molo-makhulu"
+      ]
+    },
+    {
+      "id": "hambani-kakuhle",
+      "rawTranscript": "hambani ka kuhle",
+      "accepted": [
+        "hambani-kakuhle"
+      ]
+    },
+    {
+      "id": "salani-kakuhle",
+      "rawTranscript": "salani ka kuhle",
+      "accepted": [
+        "salani-kakuhle"
+      ]
+    },
+    {
+      "id": "ulale-kamnandi",
+      "rawTranscript": "ulale ka mnandi",
+      "accepted": [
+        "ulale-kamnandi"
+      ]
+    },
+    {
+      "id": "hayi-enkosi",
+      "rawTranscript": "hayi inkosi",
+      "accepted": [
+        "hayi-enkosi"
+      ]
+    },
+    {
+      "id": "wrong-phrase",
+      "rawTranscript": "ndifuna ukufunda namhlanje",
+      "accepted": []
+    }
+  ],
+  "failures": []
+}

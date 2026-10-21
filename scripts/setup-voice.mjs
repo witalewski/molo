@@ -85,4 +85,6 @@ function run(command, args) {
   });
 }
 await run("uv", ["sync", "--locked"]);
-await run("uv", ["run", "--locked", "python", "scripts/generate-audio.py"]);
+console.log(
+  "ASR ready. Existing lesson audio was preserved; inspect npm run audio:plan to stage a new uniform bank.",
+);

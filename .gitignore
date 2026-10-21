@@ -2,6 +2,7 @@ node_modules/
 dist/
 models/
 .venv/
+__pycache__/
 playwright-report/
 test-results/
 .env

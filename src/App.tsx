@@ -377,7 +377,7 @@ export default function App() {
         </p>
       </div>
       <p>
-        Wzorce są generowane modelem mowy przeznaczonym dla Xhosa. Nagranie
+        Wszystkie wzorce korzystają z jednego syntetycznego głosu. Nagranie
         ucznia przetwarza lokalny serwer Molo w pamięci, bez zapisywania go na
         dysku.
       </p>
@@ -1299,11 +1299,11 @@ export default function App() {
                   </a>
                 ))}
                 <a
-                  href="https://huggingface.co/UBC-NLP/Simba-TTS-xho"
+                  href="https://huggingface.co/whitelabel/mlx-q6-higgs-tts-3-4b"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  Wzorce mowy: UBC-NLP / Simba-TTS-xho · CC BY 4.0 ↗
+                  Wzorce mowy: Boson AI / Higgs TTS 3 · użytek niekomercyjny ↗
                 </a>
                 <a
                   href="https://huggingface.co/OpenVoiceOS/misterkissi-w2v2-lg-xls-r-300m-xhosa-onnx"

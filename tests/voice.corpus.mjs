@@ -16,7 +16,7 @@ const phrases = JSON.parse(
 const samplesFor = (id) =>
   parseWav(fs.readFileSync(new URL(`./fixtures/${id}.wav`, import.meta.url)));
 
-test("real speech corpus accepts each phrase and rejects every other lesson target", async () => {
+test("independently generated synthetic corpus accepts each phrase and rejects every other lesson target", async () => {
   const references = await prepareReferences();
   const failures = [];
   for (const recording of phrases) {

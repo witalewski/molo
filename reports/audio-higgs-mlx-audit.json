@@ -1,0 +1,2313 @@
+{
+  "method": "Independent raw CTC transcription and signal measurements; no expected-phrase substitution or acoustic-reference acceptance",
+  "humanPhoneticReview": false,
+  "limitation": "Transcript mismatches are review flags, not proof of incorrect pronunciation. Exact transcription does not validate clicks, tones, or accent.",
+  "total": 128,
+  "exactTranscripts": 63,
+  "results": [
+    {
+      "id": "molo",
+      "kind": "primary",
+      "file": "models/higgs-mlx-candidate/audio/molo.wav",
+      "sha256": "2002d5f2c9585f8a8ceb8e53ab5373d7cc5e1b9b415b3a73c601565fee0ad2b4",
+      "expected": "Molo!",
+      "transcript": "molo",
+      "confidence": 0.8788300997353178,
+      "similarity": 1,
+      "duration": 0.988,
+      "peak": 0.40838623046875,
+      "rms": 0.076000143820607,
+      "checks": {
+        "transcriptMatches": true,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "molo",
+      "kind": "reference-7331",
+      "file": "models/higgs-mlx-candidate/audio/variants/molo-7331.wav",
+      "sha256": "c47b53212f9a1485b031829c0628bc4249fb43e8ffd860aec2e4d873bf09d43c",
+      "expected": "Molo!",
+      "transcript": "molo",
+      "confidence": 0.9988866013693414,
+      "similarity": 1,
+      "duration": 1.014625,
+      "peak": 0.410736083984375,
+      "rms": 0.07691119596546403,
+      "checks": {
+        "transcriptMatches": true,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "molo",
+      "kind": "reference-7332",
+      "file": "models/higgs-mlx-candidate/audio/variants/molo-7332.wav",
+      "sha256": "e83d40ec85caf63d8550dd34210943ec054f2626bc9a8ad8b762a9c46e8512ec",
+      "expected": "Molo!",
+      "transcript": "molo",
+      "confidence": 0.9997224685637704,
+      "similarity": 1,
+      "duration": 0.9635,
+      "peak": 0.40228271484375,
+      "rms": 0.07509130643682516,
+      "checks": {
+        "transcriptMatches": true,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "molo",
+      "kind": "independent-test",
+      "file": "models/higgs-mlx-candidate/fixtures/molo.wav",
+      "sha256": "524c2d9bddc5907762579d4d5b6fb322cef08f29b74369804481c2931559a263",
+      "expected": "Molo!",
+      "transcript": "molo",
+      "confidence": 0.9999472253539871,
+      "similarity": 1,
+      "duration": 1.082125,
+      "peak": 0.366058349609375,
+      "rms": 0.07971179520766958,
+      "checks": {
+        "transcriptMatches": true,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "molweni",
+      "kind": "primary",
+      "file": "models/higgs-mlx-candidate/audio/molweni.wav",
+      "sha256": "b454d872d559118162c3e980d97c6b5b7e6814fe9dfcf21434a2d356db66e4de",
+      "expected": "Molweni!",
+      "transcript": "mulwini",
+      "confidence": 0.9470516538049133,
+      "similarity": 0.7142857142857143,
+      "duration": 1.3400625,
+      "peak": 0.30230712890625,
+      "rms": 0.0810474949158086,
+      "checks": {
+        "transcriptMatches": false,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "molweni",
+      "kind": "reference-7331",
+      "file": "models/higgs-mlx-candidate/audio/variants/molweni-7331.wav",
+      "sha256": "24bd44a71c94ce334a0e3cacdce1ea2c931b0737828b132e3e0105813825304d",
+      "expected": "Molweni!",
+      "transcript": "mulwini",
+      "confidence": 0.9955887617468687,
+      "similarity": 0.7142857142857143,
+      "duration": 1.381375,
+      "peak": 0.291290283203125,
+      "rms": 0.07965981940948016,
+      "checks": {
+        "transcriptMatches": false,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "molweni",
+      "kind": "reference-7332",
+      "file": "models/higgs-mlx-candidate/audio/variants/molweni-7332.wav",
+      "sha256": "e38315c1642b5dc7bb5bc63dcb2c60417093a0f76bfb0e09b14d7fadeb279da7",
+      "expected": "Molweni!",
+      "transcript": "mulwini",
+      "confidence": 0.9982955806468394,
+      "similarity": 0.7142857142857143,
+      "duration": 1.302,
+      "peak": 0.285430908203125,
+      "rms": 0.0766005162244925,
+      "checks": {
+        "transcriptMatches": false,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "molweni",
+      "kind": "independent-test",
+      "file": "models/higgs-mlx-candidate/fixtures/molweni.wav",
+      "sha256": "a70271cfea41313117951cf01d6a60e2160970929f926eee1ac6efd37f1a4d00",
+      "expected": "Molweni!",
+      "transcript": "molwini",
+      "confidence": 0.9982235211233966,
+      "similarity": 0.8571428571428572,
+      "duration": 1.24,
+      "peak": 0.346099853515625,
+      "rms": 0.08311154420270743,
+      "checks": {
+        "transcriptMatches": false,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "molo-tata",
+      "kind": "primary",
+      "file": "models/higgs-mlx-candidate/audio/molo-tata.wav",
+      "sha256": "237450f67f551c45ed247c5a7eee410c67dbfef5a02a9c4e8db6ed3fdd998582",
+      "expected": "Molo, tata!",
+      "transcript": "molo ta da",
+      "confidence": 0.888377300493668,
+      "similarity": 0.875,
+      "duration": 1.944,
+      "peak": 0.57366943359375,
+      "rms": 0.07908561608597348,
+      "checks": {
+        "transcriptMatches": false,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "molo-tata",
+      "kind": "reference-7331",
+      "file": "models/higgs-mlx-candidate/audio/variants/molo-tata-7331.wav",
+      "sha256": "5a02625b60f8910b57ab452a15e82d1d281e125e1c582fc1ac7e966eefb77da6",
+      "expected": "Molo, tata!",
+      "transcript": "molo ta da",
+      "confidence": 0.9331321978496545,
+      "similarity": 0.875,
+      "duration": 2.0104375,
+      "peak": 0.583282470703125,
+      "rms": 0.08159413565250455,
+      "checks": {
+        "transcriptMatches": false,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "molo-tata",
+      "kind": "reference-7332",
+      "file": "models/higgs-mlx-candidate/audio/variants/molo-tata-7332.wav",
+      "sha256": "e9f80f6015f67aa0b7f14c778644a7af6f3d01b7eda0ec127d141ea0d9354231",
+      "expected": "Molo, tata!",
+      "transcript": "molo ta da",
+      "confidence": 0.9097395906140033,
+      "similarity": 0.875,
+      "duration": 1.88275,
+      "peak": 0.54638671875,
+      "rms": 0.07672807002503529,
+      "checks": {
+        "transcriptMatches": false,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "molo-tata",
+      "kind": "independent-test",
+      "file": "models/higgs-mlx-candidate/fixtures/molo-tata.wav",
+      "sha256": "f904b3b63de6aaf3854e52b61187c20210d012e4ad6ecb29d59823ad78dbf1f4",
+      "expected": "Molo, tata!",
+      "transcript": "molo kada",
+      "confidence": 0.9748261694792085,
+      "similarity": 0.75,
+      "duration": 2.012625,
+      "peak": 0.64276123046875,
+      "rms": 0.08213075130080925,
+      "checks": {
+        "transcriptMatches": false,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "molo-mama",
+      "kind": "primary",
+      "file": "models/higgs-mlx-candidate/audio/molo-mama.wav",
+      "sha256": "dbf5d60defde4f9e781e1ac0ed2e02c2dc1d0ef9e563aaef68e51be142498b68",
+      "expected": "Molo, mama!",
+      "transcript": "mo lo mama",
+      "confidence": 0.9928796538975166,
+      "similarity": 1,
+      "duration": 1.423375,
+      "peak": 0.471466064453125,
+      "rms": 0.0882645953014676,
+      "checks": {
+        "transcriptMatches": true,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "molo-mama",
+      "kind": "reference-7331",
+      "file": "models/higgs-mlx-candidate/audio/variants/molo-mama-7331.wav",
+      "sha256": "3dd433e2960a2907efd57f89cdd7317a917d4fc31e221c5c68a4f89c19820e76",
+      "expected": "Molo, mama!",
+      "transcript": "mo lo mama",
+      "confidence": 0.9961128602515364,
+      "similarity": 1,
+      "duration": 1.468125,
+      "peak": 0.460723876953125,
+      "rms": 0.08659096506961655,
+      "checks": {
+        "transcriptMatches": true,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "molo-mama",
+      "kind": "reference-7332",
+      "file": "models/higgs-mlx-candidate/audio/variants/molo-mama-7332.wav",
+      "sha256": "b938b9f51eb3b6f03affbe453eeeb04019828fe4c7bb2c1aaee2d578905a1662",
+      "expected": "Molo, mama!",
+      "transcript": "mo lo mama",
+      "confidence": 0.9905196432875305,
+      "similarity": 1,
+      "duration": 1.382125,
+      "peak": 0.4476318359375,
+      "rms": 0.08458041361926111,
+      "checks": {
+        "transcriptMatches": true,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "molo-mama",
+      "kind": "independent-test",
+      "file": "models/higgs-mlx-candidate/fixtures/molo-mama.wav",
+      "sha256": "c1be2001ab12055309cf707c57cf82761ab74e0bc7f38c724d88fb5d0c479a6c",
+      "expected": "Molo, mama!",
+      "transcript": "molo mama",
+      "confidence": 0.9643864053262212,
+      "similarity": 1,
+      "duration": 2.0135,
+      "peak": 0.37835693359375,
+      "rms": 0.08809787150953341,
+      "checks": {
+        "transcriptMatches": true,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "hamba-kakuhle",
+      "kind": "primary",
+      "file": "models/higgs-mlx-candidate/audio/hamba-kakuhle.wav",
+      "sha256": "e9fd5ad9ccb1f68d11ee7d0f2e127b911b1b1d1e1f4b75f52f0e454ee869fd65",
+      "expected": "Hamba kakuhle!",
+      "transcript": "hamba kaku hle",
+      "confidence": 0.9745921882771056,
+      "similarity": 1,
+      "duration": 1.6983125,
+      "peak": 0.8912353515625,
+      "rms": 0.0757622360353407,
+      "checks": {
+        "transcriptMatches": true,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "hamba-kakuhle",
+      "kind": "reference-7331",
+      "file": "models/higgs-mlx-candidate/audio/variants/hamba-kakuhle-7331.wav",
+      "sha256": "4779d64ccfc05ebe002a9c36390ee8f343d872de5bc26fb1377a15126788ea58",
+      "expected": "Hamba kakuhle!",
+      "transcript": "hamba kaku hle",
+      "confidence": 0.9838824744650171,
+      "similarity": 1,
+      "duration": 1.7545,
+      "peak": 0.8912353515625,
+      "rms": 0.07605110146389063,
+      "checks": {
+        "transcriptMatches": true,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "hamba-kakuhle",
+      "kind": "reference-7332",
+      "file": "models/higgs-mlx-candidate/audio/variants/hamba-kakuhle-7332.wav",
+      "sha256": "4b58e8d7cbdb1ba2f11739ea05ecc908cada3aaf53af8761e68d48b64024eb62",
+      "expected": "Hamba kakuhle!",
+      "transcript": "hamba ka kuhle",
+      "confidence": 0.9808017226174401,
+      "similarity": 1,
+      "duration": 1.6465,
+      "peak": 0.8912353515625,
+      "rms": 0.07164973238150255,
+      "checks": {
+        "transcriptMatches": true,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "hamba-kakuhle",
+      "kind": "independent-test",
+      "file": "models/higgs-mlx-candidate/fixtures/hamba-kakuhle.wav",
+      "sha256": "f8d0f01287c7c5eef58706ee7a4776927bd8a6ecbde2c7da906e2fae7149b7e0",
+      "expected": "Hamba kakuhle!",
+      "transcript": "hamba ka kuhle",
+      "confidence": 0.9859915932952041,
+      "similarity": 1,
+      "duration": 1.6584375,
+      "peak": 0.55535888671875,
+      "rms": 0.07951296942544718,
+      "checks": {
+        "transcriptMatches": true,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "sala-kakuhle",
+      "kind": "primary",
+      "file": "models/higgs-mlx-candidate/audio/sala-kakuhle.wav",
+      "sha256": "15ef7cba510be5153f43d0f2c3ce60537904170b55695ecfbb64d9fdc0dc8a4e",
+      "expected": "Sala kakuhle!",
+      "transcript": "sala ka kuhle",
+      "confidence": 0.9995521288729571,
+      "similarity": 1,
+      "duration": 1.6885,
+      "peak": 0.5101318359375,
+      "rms": 0.08184299611541292,
+      "checks": {
+        "transcriptMatches": true,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "sala-kakuhle",
+      "kind": "reference-7331",
+      "file": "models/higgs-mlx-candidate/audio/variants/sala-kakuhle-7331.wav",
+      "sha256": "fd9cfdce1d0d90c02b168756b7ea1710fc490b4813506b26426b76d7fe9462e9",
+      "expected": "Sala kakuhle!",
+      "transcript": "sala ka kuhle",
+      "confidence": 0.9526628266134867,
+      "similarity": 1,
+      "duration": 1.7443125,
+      "peak": 0.50091552734375,
+      "rms": 0.08056487630411102,
+      "checks": {
+        "transcriptMatches": true,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "sala-kakuhle",
+      "kind": "reference-7332",
+      "file": "models/higgs-mlx-candidate/audio/variants/sala-kakuhle-7332.wav",
+      "sha256": "a39cea77304066a9a1d5c85b12884cd44fd37269f489f00e62471b5d0f467724",
+      "expected": "Sala kakuhle!",
+      "transcript": "sala ka kuhle",
+      "confidence": 0.9987421990991036,
+      "similarity": 1,
+      "duration": 1.6370625,
+      "peak": 0.48858642578125,
+      "rms": 0.07913859706288903,
+      "checks": {
+        "transcriptMatches": true,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "sala-kakuhle",
+      "kind": "independent-test",
+      "file": "models/higgs-mlx-candidate/fixtures/sala-kakuhle.wav",
+      "sha256": "454da6446da8aca84856a9814e5613f5603ad75b64f54f86e271b36f5c768aef",
+      "expected": "Sala kakuhle!",
+      "transcript": "sala ka kuhle",
+      "confidence": 0.9998394661193927,
+      "similarity": 1,
+      "duration": 1.782875,
+      "peak": 0.483428955078125,
+      "rms": 0.0826390391779631,
+      "checks": {
+        "transcriptMatches": true,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "enkosi",
+      "kind": "primary",
+      "file": "models/higgs-mlx-candidate/audio/enkosi.wav",
+      "sha256": "5f580d87a8773e857cf0dcc3e77bfa517a16f4edd703fa3a9140489cbb6527de",
+      "expected": "Enkosi!",
+      "transcript": "inkosi",
+      "confidence": 0.97546237812081,
+      "similarity": 0.8333333333333334,
+      "duration": 1.2981875,
+      "peak": 0.477874755859375,
+      "rms": 0.07698111964788781,
+      "checks": {
+        "transcriptMatches": false,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "enkosi",
+      "kind": "reference-7331",
+      "file": "models/higgs-mlx-candidate/audio/variants/enkosi-7331.wav",
+      "sha256": "87aaacfccf1deb85b076db98613e589754e58931d67d864824be77a7b6872d51",
+      "expected": "Enkosi!",
+      "transcript": "inkosi",
+      "confidence": 0.9932105833851438,
+      "similarity": 0.8333333333333334,
+      "duration": 1.33775,
+      "peak": 0.515350341796875,
+      "rms": 0.08163458045283611,
+      "checks": {
+        "transcriptMatches": false,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "enkosi",
+      "kind": "reference-7332",
+      "file": "models/higgs-mlx-candidate/audio/variants/enkosi-7332.wav",
+      "sha256": "037b1f00e50bb2a18cdbbb4700ac4034cf23547070f30c96452d283676f2f805",
+      "expected": "Enkosi!",
+      "transcript": "inkosi",
+      "confidence": 0.9811562193278491,
+      "similarity": 0.8333333333333334,
+      "duration": 1.26175,
+      "peak": 0.48883056640625,
+      "rms": 0.07828824498712438,
+      "checks": {
+        "transcriptMatches": false,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "enkosi",
+      "kind": "independent-test",
+      "file": "models/higgs-mlx-candidate/fixtures/enkosi.wav",
+      "sha256": "a3f72cf600e3ed62b155d1fcc1e6dddb01f0e2f3c2000378b84fbc89e6dbe4ff",
+      "expected": "Enkosi!",
+      "transcript": "inkosi",
+      "confidence": 0.99642087100963,
+      "similarity": 0.8333333333333334,
+      "duration": 1.2545,
+      "peak": 0.548492431640625,
+      "rms": 0.08324950320999772,
+      "checks": {
+        "transcriptMatches": false,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "enkosi-kakhulu",
+      "kind": "primary",
+      "file": "models/higgs-mlx-candidate/audio/enkosi-kakhulu.wav",
+      "sha256": "eb39aa2331053d7fae7951d6d5812da3be8e8c27a1974d125b5d3f2445393048",
+      "expected": "Enkosi kakhulu!",
+      "transcript": "enkosi kakhulu",
+      "confidence": 0.9998639481633648,
+      "similarity": 1,
+      "duration": 1.7539375,
+      "peak": 0.64849853515625,
+      "rms": 0.09144665329388826,
+      "checks": {
+        "transcriptMatches": true,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "enkosi-kakhulu",
+      "kind": "reference-7331",
+      "file": "models/higgs-mlx-candidate/audio/variants/enkosi-kakhulu-7331.wav",
+      "sha256": "4e4e9504899b6e1767899700d93696838dbdb6b0499acc63b8167bd6d067baea",
+      "expected": "Enkosi kakhulu!",
+      "transcript": "enkosi kakhulu",
+      "confidence": 0.9752413658713168,
+      "similarity": 1,
+      "duration": 1.8124375,
+      "peak": 0.694000244140625,
+      "rms": 0.0934705041815342,
+      "checks": {
+        "transcriptMatches": true,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "enkosi-kakhulu",
+      "kind": "reference-7332",
+      "file": "models/higgs-mlx-candidate/audio/variants/enkosi-kakhulu-7332.wav",
+      "sha256": "dd103d29690b2a613a38ef6e7f5b4f4ea303acbf25326ffc47dba974ffc599d1",
+      "expected": "Enkosi kakhulu!",
+      "transcript": "enkosi kakhulu",
+      "confidence": 0.9998155410102904,
+      "similarity": 1,
+      "duration": 1.7,
+      "peak": 0.64990234375,
+      "rms": 0.09310889056722654,
+      "checks": {
+        "transcriptMatches": true,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "enkosi-kakhulu",
+      "kind": "independent-test",
+      "file": "models/higgs-mlx-candidate/fixtures/enkosi-kakhulu.wav",
+      "sha256": "a7aa1e05868696745c1ecf298ff2d8133c861b99064eebd9bbec83594b73a374",
+      "expected": "Enkosi kakhulu!",
+      "transcript": "enkosi kakhulu",
+      "confidence": 0.9942161262540029,
+      "similarity": 1,
+      "duration": 1.74725,
+      "peak": 0.505157470703125,
+      "rms": 0.09240176811103255,
+      "checks": {
+        "transcriptMatches": true,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "enkosi-tata",
+      "kind": "primary",
+      "file": "models/higgs-mlx-candidate/audio/enkosi-tata.wav",
+      "sha256": "0babab99a22dcd78c050eec395f0d777a081197e17af6bdda59ae52c9b9d706f",
+      "expected": "Enkosi, tata!",
+      "transcript": "enkosi da da",
+      "confidence": 0.9587221459123555,
+      "similarity": 0.8,
+      "duration": 2.01175,
+      "peak": 0.747222900390625,
+      "rms": 0.08524501261237415,
+      "checks": {
+        "transcriptMatches": false,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "enkosi-tata",
+      "kind": "reference-7331",
+      "file": "models/higgs-mlx-candidate/audio/variants/enkosi-tata-7331.wav",
+      "sha256": "23077dbf0d6b557a607653ceb78feff798836de97a1ca1ad62e3b640cbcd36c5",
+      "expected": "Enkosi, tata!",
+      "transcript": "enkosi da da",
+      "confidence": 0.9264179342164884,
+      "similarity": 0.8,
+      "duration": 2.081,
+      "peak": 0.774139404296875,
+      "rms": 0.08764984008292194,
+      "checks": {
+        "transcriptMatches": false,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "enkosi-tata",
+      "kind": "reference-7332",
+      "file": "models/higgs-mlx-candidate/audio/variants/enkosi-tata-7332.wav",
+      "sha256": "d6ae2a6ee0379ee7ffc26ecba64cb040086a7edf266267f5727259e926111360",
+      "expected": "Enkosi, tata!",
+      "transcript": "enkosi da da",
+      "confidence": 0.9485742605340556,
+      "similarity": 0.8,
+      "duration": 1.947875,
+      "peak": 0.7769775390625,
+      "rms": 0.08712317605532277,
+      "checks": {
+        "transcriptMatches": false,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "enkosi-tata",
+      "kind": "independent-test",
+      "file": "models/higgs-mlx-candidate/fixtures/enkosi-tata.wav",
+      "sha256": "e3a0f186ea0d4308357627016186f7318ae4f0453de8b55b23e21d71a283b2a5",
+      "expected": "Enkosi, tata!",
+      "transcript": "inkosi tat a",
+      "confidence": 0.9789285898051713,
+      "similarity": 0.9,
+      "duration": 2.1651875,
+      "peak": 0.6790771484375,
+      "rms": 0.08353459852788982,
+      "checks": {
+        "transcriptMatches": false,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "enkosi-mama",
+      "kind": "primary",
+      "file": "models/higgs-mlx-candidate/audio/enkosi-mama.wav",
+      "sha256": "a29f0d5f60946bd31852efc4b5b3a4484d7df4f4c8dd452d3e0e3dd1d988baf6",
+      "expected": "Enkosi, mama!",
+      "transcript": "enkosimama",
+      "confidence": 0.9994473693750642,
+      "similarity": 1,
+      "duration": 1.658125,
+      "peak": 0.6610107421875,
+      "rms": 0.08828289841886063,
+      "checks": {
+        "transcriptMatches": true,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "enkosi-mama",
+      "kind": "reference-7331",
+      "file": "models/higgs-mlx-candidate/audio/variants/enkosi-mama-7331.wav",
+      "sha256": "21f0498006f5d16ade3852900419fcdfd8af2212432ea9314a8d745a989ac17f",
+      "expected": "Enkosi, mama!",
+      "transcript": "enkosimama",
+      "confidence": 0.999348635356832,
+      "similarity": 1,
+      "duration": 1.7126875,
+      "peak": 0.677734375,
+      "rms": 0.09096025178620021,
+      "checks": {
+        "transcriptMatches": true,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "enkosi-mama",
+      "kind": "reference-7332",
+      "file": "models/higgs-mlx-candidate/audio/variants/enkosi-mama-7332.wav",
+      "sha256": "49c73f5af842686550ec13697a1690bfc39967f095af96e4212583e0fc802e03",
+      "expected": "Enkosi, mama!",
+      "transcript": "enkosimama",
+      "confidence": 0.9983460493386935,
+      "similarity": 1,
+      "duration": 1.6078125,
+      "peak": 0.701385498046875,
+      "rms": 0.09006991735736387,
+      "checks": {
+        "transcriptMatches": true,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "enkosi-mama",
+      "kind": "independent-test",
+      "file": "models/higgs-mlx-candidate/fixtures/enkosi-mama.wav",
+      "sha256": "8a21c1939aff2ffd52e7e9a75eea10048fa0877a0ab781b9ff0c22bd42511f4d",
+      "expected": "Enkosi, mama!",
+      "transcript": "inkosi imama",
+      "confidence": 0.9964739011532125,
+      "similarity": 0.8181818181818181,
+      "duration": 1.6196875,
+      "peak": 0.427154541015625,
+      "rms": 0.08711500911190181,
+      "checks": {
+        "transcriptMatches": false,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "uxolo-tata",
+      "kind": "primary",
+      "file": "models/higgs-mlx-candidate/audio/uxolo-tata.wav",
+      "sha256": "f5859d72169afbf43511388afcc29fd3e4d79dcdae6d8f2e2db2daee48108645",
+      "expected": "Uxolo, tata!",
+      "transcript": "uxolo ta da",
+      "confidence": 0.9080890899357794,
+      "similarity": 0.8888888888888888,
+      "duration": 1.976625,
+      "peak": 0.575469970703125,
+      "rms": 0.07874842901812124,
+      "checks": {
+        "transcriptMatches": false,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "uxolo-tata",
+      "kind": "reference-7331",
+      "file": "models/higgs-mlx-candidate/audio/variants/uxolo-tata-7331.wav",
+      "sha256": "f798f243825f2d37cef283e232ba87678aeeb10cf006cd90dacc4c7805da9ff1",
+      "expected": "Uxolo, tata!",
+      "transcript": "uxolo ta da",
+      "confidence": 0.9992918019846538,
+      "similarity": 0.8888888888888888,
+      "duration": 2.0444375,
+      "peak": 0.5648193359375,
+      "rms": 0.07792436084955184,
+      "checks": {
+        "transcriptMatches": false,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "uxolo-tata",
+      "kind": "reference-7332",
+      "file": "models/higgs-mlx-candidate/audio/variants/uxolo-tata-7332.wav",
+      "sha256": "9fbda4ac0bb2a6c76a467323e76e3c92711782091e673e153943c990555c2e7c",
+      "expected": "Uxolo, tata!",
+      "transcript": "ucolo ta da",
+      "confidence": 0.9592340636071107,
+      "similarity": 0.7777777777777778,
+      "duration": 1.9140625,
+      "peak": 0.58978271484375,
+      "rms": 0.07941142178335057,
+      "checks": {
+        "transcriptMatches": false,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "uxolo-tata",
+      "kind": "independent-test",
+      "file": "models/higgs-mlx-candidate/fixtures/uxolo-tata.wav",
+      "sha256": "8b7828514a132d0e4d735b3401a532c7c18b15bfcc2ac9c63e71d4770e82cb1a",
+      "expected": "Uxolo, tata!",
+      "transcript": "ucolo ca da",
+      "confidence": 0.9678456583154337,
+      "similarity": 0.6666666666666667,
+      "duration": 1.5151875,
+      "peak": 0.52880859375,
+      "rms": 0.08300381756156332,
+      "checks": {
+        "transcriptMatches": false,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "uxolo-mama",
+      "kind": "primary",
+      "file": "models/higgs-mlx-candidate/audio/uxolo-mama.wav",
+      "sha256": "d8022480ee720a965a714e22c93f24a7a3f9d2207e8fac6186592e2631712749",
+      "expected": "Uxolo, mama!",
+      "transcript": "uxolo mama",
+      "confidence": 0.9988567348775096,
+      "similarity": 1,
+      "duration": 1.98475,
+      "peak": 0.6544189453125,
+      "rms": 0.0808017294797288,
+      "checks": {
+        "transcriptMatches": true,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "uxolo-mama",
+      "kind": "reference-7331",
+      "file": "models/higgs-mlx-candidate/audio/variants/uxolo-mama-7331.wav",
+      "sha256": "ad761fe8cc3ea931945fa28b4ea8896a6a699e62aec8c9690d1161e3830b082c",
+      "expected": "Uxolo, mama!",
+      "transcript": "uxolo mama",
+      "confidence": 0.9826279023592486,
+      "similarity": 1,
+      "duration": 2.052875,
+      "peak": 0.6737060546875,
+      "rms": 0.08309730316118041,
+      "checks": {
+        "transcriptMatches": true,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "uxolo-mama",
+      "kind": "reference-7332",
+      "file": "models/higgs-mlx-candidate/audio/variants/uxolo-mama-7332.wav",
+      "sha256": "d373a83bc31c12f5b249149df23f5e1ec35c95efc1a2c38304b0abed4944b344",
+      "expected": "Uxolo, mama!",
+      "transcript": "uxolo mama",
+      "confidence": 0.9975637214458741,
+      "similarity": 1,
+      "duration": 1.921875,
+      "peak": 0.66815185546875,
+      "rms": 0.08162095905931278,
+      "checks": {
+        "transcriptMatches": true,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "uxolo-mama",
+      "kind": "independent-test",
+      "file": "models/higgs-mlx-candidate/fixtures/uxolo-mama.wav",
+      "sha256": "f9ff8f7e9521c32c1d4566cb32b19d8222e7a70072d07bd5db68c63efcf681b1",
+      "expected": "Uxolo, mama!",
+      "transcript": "uxolo mama",
+      "confidence": 0.999587017971389,
+      "similarity": 1,
+      "duration": 2.0465625,
+      "peak": 0.527618408203125,
+      "rms": 0.07759198336373664,
+      "checks": {
+        "transcriptMatches": true,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "unjani",
+      "kind": "primary",
+      "file": "models/higgs-mlx-candidate/audio/unjani.wav",
+      "sha256": "b16f24cdc9fb66289ceccb76f30030358cf07b46151c6111dd6ee0e28fc2cd1e",
+      "expected": "Unjani?",
+      "transcript": "unjani",
+      "confidence": 0.999958180632071,
+      "similarity": 1,
+      "duration": 1.1861875,
+      "peak": 0.454193115234375,
+      "rms": 0.08080502416474292,
+      "checks": {
+        "transcriptMatches": true,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "unjani",
+      "kind": "reference-7331",
+      "file": "models/higgs-mlx-candidate/audio/variants/unjani-7331.wav",
+      "sha256": "de596e80ac6f96f9f86c9148bcc73b57caf70732db05a79bd84efc6b3e1ae89c",
+      "expected": "Unjani?",
+      "transcript": "unjani",
+      "confidence": 0.9999731988227145,
+      "similarity": 1,
+      "duration": 1.2210625,
+      "peak": 0.4796142578125,
+      "rms": 0.08468072709960708,
+      "checks": {
+        "transcriptMatches": true,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "unjani",
+      "kind": "reference-7332",
+      "file": "models/higgs-mlx-candidate/audio/variants/unjani-7332.wav",
+      "sha256": "b48bb83caac764b62f0eb204cbe135da920e0df761b4b3c85af0b83706b1086c",
+      "expected": "Unjani?",
+      "transcript": "unjani",
+      "confidence": 0.9999477129428035,
+      "similarity": 1,
+      "duration": 1.1540625,
+      "peak": 0.464141845703125,
+      "rms": 0.08109543013063834,
+      "checks": {
+        "transcriptMatches": true,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "unjani",
+      "kind": "independent-test",
+      "file": "models/higgs-mlx-candidate/fixtures/unjani.wav",
+      "sha256": "618b133613749290f59b0d0b0ac368bf9fe7e2c2daa0fe4880f6746c50053004",
+      "expected": "Unjani?",
+      "transcript": "unjani",
+      "confidence": 0.9999658082627628,
+      "similarity": 1,
+      "duration": 1.2208125,
+      "peak": 0.542388916015625,
+      "rms": 0.08455264603342348,
+      "checks": {
+        "transcriptMatches": true,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "ndiphilile-enkosi",
+      "kind": "primary",
+      "file": "models/higgs-mlx-candidate/audio/ndiphilile-enkosi.wav",
+      "sha256": "2fbdf83efe5c07a51cf78b5b176264bf4afdbcfa710d4370030382f1772c7edd",
+      "expected": "Ndiphilile, enkosi.",
+      "transcript": "ndiphilile inkosi",
+      "confidence": 0.9986509871421279,
+      "similarity": 0.9375,
+      "duration": 2.4904375,
+      "peak": 0.49658203125,
+      "rms": 0.08654381515576282,
+      "checks": {
+        "transcriptMatches": false,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "ndiphilile-enkosi",
+      "kind": "reference-7331",
+      "file": "models/higgs-mlx-candidate/audio/variants/ndiphilile-enkosi-7331.wav",
+      "sha256": "df3519ad3c6aa7891112c901c3d93b6e511b60eb4c96bed126eb350aad12ace3",
+      "expected": "Ndiphilile, enkosi.",
+      "transcript": "ndiphilile inkosi",
+      "confidence": 0.9932491267389061,
+      "similarity": 0.9375,
+      "duration": 2.579625,
+      "peak": 0.510955810546875,
+      "rms": 0.08794574806129961,
+      "checks": {
+        "transcriptMatches": false,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "ndiphilile-enkosi",
+      "kind": "reference-7332",
+      "file": "models/higgs-mlx-candidate/audio/variants/ndiphilile-enkosi-7332.wav",
+      "sha256": "21473e77c6c3913d4fcf00e7d5892c537c3359e9813d10a20c262c5448e990f1",
+      "expected": "Ndiphilile, enkosi.",
+      "transcript": "ndiphilile inkosi",
+      "confidence": 0.9835317530179566,
+      "similarity": 0.9375,
+      "duration": 2.408125,
+      "peak": 0.514984130859375,
+      "rms": 0.08803968932407864,
+      "checks": {
+        "transcriptMatches": false,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "ndiphilile-enkosi",
+      "kind": "independent-test",
+      "file": "models/higgs-mlx-candidate/fixtures/ndiphilile-enkosi.wav",
+      "sha256": "f01f4c67caeb97b3156f85d1b20f51a03683523d3e19d205202baae81e7c07f2",
+      "expected": "Ndiphilile, enkosi.",
+      "transcript": "ndiphilile inkosi",
+      "confidence": 0.9809180569116384,
+      "similarity": 0.9375,
+      "duration": 2.53775,
+      "peak": 0.646697998046875,
+      "rms": 0.08390806645846917,
+      "checks": {
+        "transcriptMatches": false,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "wena-unjani",
+      "kind": "primary",
+      "file": "models/higgs-mlx-candidate/audio/wena-unjani.wav",
+      "sha256": "17d3246af4d4b6bff17b72fb76b35a7887974042d0f1731a2e4572de3f00c0d2",
+      "expected": "Wena unjani?",
+      "transcript": "we na unjani",
+      "confidence": 0.9692608116934535,
+      "similarity": 1,
+      "duration": 1.7084375,
+      "peak": 0.506500244140625,
+      "rms": 0.08810183559494986,
+      "checks": {
+        "transcriptMatches": true,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "wena-unjani",
+      "kind": "reference-7331",
+      "file": "models/higgs-mlx-candidate/audio/variants/wena-unjani-7331.wav",
+      "sha256": "b375a3ace1aa1f1ca50aa5ad7e23cbb0971a6b1bb7cb7b9e868a31280e7102ae",
+      "expected": "Wena unjani?",
+      "transcript": "we na unjani",
+      "confidence": 0.983917994459571,
+      "similarity": 1,
+      "duration": 1.7650625,
+      "peak": 0.4967041015625,
+      "rms": 0.08671445327497994,
+      "checks": {
+        "transcriptMatches": true,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "wena-unjani",
+      "kind": "reference-7332",
+      "file": "models/higgs-mlx-candidate/audio/variants/wena-unjani-7332.wav",
+      "sha256": "e2392d9b034f29f34fefdcda11d2fa379f7471f56fbb87b2d936cd0c01ae28dd",
+      "expected": "Wena unjani?",
+      "transcript": "we na unjana",
+      "confidence": 0.9455645291416798,
+      "similarity": 0.9,
+      "duration": 1.65625,
+      "peak": 0.492706298828125,
+      "rms": 0.08569891798805876,
+      "checks": {
+        "transcriptMatches": false,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "wena-unjani",
+      "kind": "independent-test",
+      "file": "models/higgs-mlx-candidate/fixtures/wena-unjani.wav",
+      "sha256": "723a53a49e363f17768e76c27132a66e7593547a2ba818e85f1a94a59727336d",
+      "expected": "Wena unjani?",
+      "transcript": "wena unjani",
+      "confidence": 0.9983791228189584,
+      "similarity": 1,
+      "duration": 1.561375,
+      "peak": 0.38079833984375,
+      "rms": 0.08701653017237643,
+      "checks": {
+        "transcriptMatches": true,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "nam-ndiphilile",
+      "kind": "primary",
+      "file": "models/higgs-mlx-candidate/audio/nam-ndiphilile.wav",
+      "sha256": "d0f83e857c163a8787e2d732e3a77fe4ab89b9addc8f4f4a3a570c871644da74",
+      "expected": "Nam ndiphilile.",
+      "transcript": "nam ndiphilile",
+      "confidence": 0.962170958127256,
+      "similarity": 1,
+      "duration": 1.6639375,
+      "peak": 0.4666748046875,
+      "rms": 0.0889459487669655,
+      "checks": {
+        "transcriptMatches": true,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "nam-ndiphilile",
+      "kind": "reference-7331",
+      "file": "models/higgs-mlx-candidate/audio/variants/nam-ndiphilile-7331.wav",
+      "sha256": "2f02e7aa9addb20b59ddc6dbef13b66bdf34fd8d95e008092ea7cce7502b9552",
+      "expected": "Nam ndiphilile.",
+      "transcript": "nam ndiphille",
+      "confidence": 0.9985851341049313,
+      "similarity": 0.9230769230769231,
+      "duration": 1.7186875,
+      "peak": 0.46875,
+      "rms": 0.0913120647491381,
+      "checks": {
+        "transcriptMatches": false,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "nam-ndiphilile",
+      "kind": "reference-7332",
+      "file": "models/higgs-mlx-candidate/audio/variants/nam-ndiphilile-7332.wav",
+      "sha256": "ac6ea9e48d400c14f804278ab9c336e302c0d9fe52f9580f29f050e488192c10",
+      "expected": "Nam ndiphilile.",
+      "transcript": "nam ndiphilile",
+      "confidence": 0.979073985257597,
+      "similarity": 1,
+      "duration": 1.6134375,
+      "peak": 0.48101806640625,
+      "rms": 0.09046146980218821,
+      "checks": {
+        "transcriptMatches": true,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "nam-ndiphilile",
+      "kind": "independent-test",
+      "file": "models/higgs-mlx-candidate/fixtures/nam-ndiphilile.wav",
+      "sha256": "08950140faaffc2ad14a8a31c0d953ff6428d5145fde763699195166c379d1a4",
+      "expected": "Nam ndiphilile.",
+      "transcript": "nam ndiphilile",
+      "confidence": 0.9732917990975248,
+      "similarity": 1,
+      "duration": 1.6724375,
+      "peak": 0.559478759765625,
+      "rms": 0.09132721069383117,
+      "checks": {
+        "transcriptMatches": true,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "ninjani",
+      "kind": "primary",
+      "file": "models/higgs-mlx-candidate/audio/ninjani.wav",
+      "sha256": "275460b6668fb0b1bac595287e37b223624e8bf31b81348ff8bf32a87fa918e9",
+      "expected": "Ninjani?",
+      "transcript": "ninjani",
+      "confidence": 0.999976005721518,
+      "similarity": 1,
+      "duration": 1.2623125,
+      "peak": 0.352294921875,
+      "rms": 0.08665809161419603,
+      "checks": {
+        "transcriptMatches": true,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "ninjani",
+      "kind": "reference-7331",
+      "file": "models/higgs-mlx-candidate/audio/variants/ninjani-7331.wav",
+      "sha256": "e52a27c86ebb2a6dbd6650981c1b3dda4b0fe181fe10c31704d9c1839aa26317",
+      "expected": "Ninjani?",
+      "transcript": "ninjani",
+      "confidence": 0.9999789686773245,
+      "similarity": 1,
+      "duration": 1.300375,
+      "peak": 0.365814208984375,
+      "rms": 0.09013103738381135,
+      "checks": {
+        "transcriptMatches": true,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "ninjani",
+      "kind": "reference-7332",
+      "file": "models/higgs-mlx-candidate/audio/variants/ninjani-7332.wav",
+      "sha256": "9a17a4f302ae165fd181570a1d363ea3502b716bce482d6a3025ebdbdf217e1a",
+      "expected": "Ninjani?",
+      "transcript": "ninjani",
+      "confidence": 0.9999786451181644,
+      "similarity": 1,
+      "duration": 1.22725,
+      "peak": 0.362152099609375,
+      "rms": 0.08813913925615402,
+      "checks": {
+        "transcriptMatches": true,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "ninjani",
+      "kind": "independent-test",
+      "file": "models/higgs-mlx-candidate/fixtures/ninjani.wav",
+      "sha256": "b36cf155c4a0cfca364bfd1df48e49c69eb82535c3e4f50b4d1cd6192801f43d",
+      "expected": "Ninjani?",
+      "transcript": "ninjani",
+      "confidence": 0.9999796158108927,
+      "similarity": 1,
+      "duration": 1.2856875,
+      "peak": 0.360321044921875,
+      "rms": 0.0836262984323166,
+      "checks": {
+        "transcriptMatches": true,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "siphilile-enkosi",
+      "kind": "primary",
+      "file": "models/higgs-mlx-candidate/audio/siphilile-enkosi.wav",
+      "sha256": "5b8455b78ed4595f399e918693184b75e8c83f422b8777f2867101044b19fc3c",
+      "expected": "Siphilile, enkosi.",
+      "transcript": "sifilile inkosi",
+      "confidence": 0.9808170100474143,
+      "similarity": 0.8,
+      "duration": 2.4676875,
+      "peak": 0.446380615234375,
+      "rms": 0.08321384586984665,
+      "checks": {
+        "transcriptMatches": false,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "siphilile-enkosi",
+      "kind": "reference-7331",
+      "file": "models/higgs-mlx-candidate/audio/variants/siphilile-enkosi-7331.wav",
+      "sha256": "d60cb8d74e593915f530ef9caaea1296367e2320d7c2404de55f43f9edec5ff9",
+      "expected": "Siphilile, enkosi.",
+      "transcript": "sifilile inkosi",
+      "confidence": 0.9841161907526043,
+      "similarity": 0.8,
+      "duration": 2.5559375,
+      "peak": 0.428192138671875,
+      "rms": 0.08212247402050867,
+      "checks": {
+        "transcriptMatches": false,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "siphilile-enkosi",
+      "kind": "reference-7332",
+      "file": "models/higgs-mlx-candidate/audio/variants/siphilile-enkosi-7332.wav",
+      "sha256": "f1d919a194c8ed28f6943cb334299ae42a26a23e2f6472d188af64069b130172",
+      "expected": "Siphilile, enkosi.",
+      "transcript": "sifilile inkosi",
+      "confidence": 0.9944569438929229,
+      "similarity": 0.8,
+      "duration": 2.38625,
+      "peak": 0.4549560546875,
+      "rms": 0.08473319369592999,
+      "checks": {
+        "transcriptMatches": false,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "siphilile-enkosi",
+      "kind": "independent-test",
+      "file": "models/higgs-mlx-candidate/fixtures/siphilile-enkosi.wav",
+      "sha256": "cb206224afe80e2dcaf27529c72d70f6dad146cf843e5ae3dc27175acb4b2234",
+      "expected": "Siphilile, enkosi.",
+      "transcript": "sifilile inkosi",
+      "confidence": 0.9997414172917544,
+      "similarity": 0.8,
+      "duration": 2.476875,
+      "peak": 0.5970458984375,
+      "rms": 0.08373445736348367,
+      "checks": {
+        "transcriptMatches": false,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "ndicela-amanzi",
+      "kind": "primary",
+      "file": "models/higgs-mlx-candidate/audio/ndicela-amanzi.wav",
+      "sha256": "61ae7e4d1d0690d8aa4acba618a8ba4d4981768fd7f71a32d6541f869d65bbcc",
+      "expected": "Ndicela amanzi.",
+      "transcript": "nditsela amanzi",
+      "confidence": 0.9995604922654564,
+      "similarity": 0.8571428571428572,
+      "duration": 1.763375,
+      "peak": 0.58038330078125,
+      "rms": 0.07923728267481045,
+      "checks": {
+        "transcriptMatches": false,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "ndicela-amanzi",
+      "kind": "reference-7331",
+      "file": "models/higgs-mlx-candidate/audio/variants/ndicela-amanzi-7331.wav",
+      "sha256": "16199847daee76aad4f92366d98a0244c578d8ae9f774724326cb3304442a1c9",
+      "expected": "Ndicela amanzi.",
+      "transcript": "ndi tsela amanzi",
+      "confidence": 0.9939152753887515,
+      "similarity": 0.8571428571428572,
+      "duration": 1.8223125,
+      "peak": 0.583953857421875,
+      "rms": 0.08182633234717349,
+      "checks": {
+        "transcriptMatches": false,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "ndicela-amanzi",
+      "kind": "reference-7332",
+      "file": "models/higgs-mlx-candidate/audio/variants/ndicela-amanzi-7332.wav",
+      "sha256": "e62be789023868d65bb31e2c2eff5cd5b41092c94eb617191b9899114dc5d7c7",
+      "expected": "Ndicela amanzi.",
+      "transcript": "ndicsela amanzi",
+      "confidence": 0.9969311766525984,
+      "similarity": 0.9285714285714286,
+      "duration": 1.7090625,
+      "peak": 0.58612060546875,
+      "rms": 0.08020409770927879,
+      "checks": {
+        "transcriptMatches": false,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "ndicela-amanzi",
+      "kind": "independent-test",
+      "file": "models/higgs-mlx-candidate/fixtures/ndicela-amanzi.wav",
+      "sha256": "1e0f434debb9c56f8165d1db8121537e45db204862b328746aab93901688d277",
+      "expected": "Ndicela amanzi.",
+      "transcript": "nditse la amanzi",
+      "confidence": 0.9650370536324413,
+      "similarity": 0.8571428571428572,
+      "duration": 1.942875,
+      "peak": 0.565887451171875,
+      "rms": 0.08532871370816215,
+      "checks": {
+        "transcriptMatches": false,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "ndicela-undincede",
+      "kind": "primary",
+      "file": "models/higgs-mlx-candidate/audio/ndicela-undincede.wav",
+      "sha256": "313450d5a92aefe9416b5ca6a0d380d8e2ab927642c4f91ba3818d8f3186bcbf",
+      "expected": "Ndicela undincede.",
+      "transcript": "ndicsele undi ncede",
+      "confidence": 0.9466879002184222,
+      "similarity": 0.8823529411764706,
+      "duration": 1.890375,
+      "peak": 0.48876953125,
+      "rms": 0.08611892476993259,
+      "checks": {
+        "transcriptMatches": false,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "ndicela-undincede",
+      "kind": "reference-7331",
+      "file": "models/higgs-mlx-candidate/audio/variants/ndicela-undincede-7331.wav",
+      "sha256": "6dc1b80c9ec9ff22c70ada8a6f5ad70d8e02936a5eb3aa16c195d1abb440dae4",
+      "expected": "Ndicela undincede.",
+      "transcript": "ndicsele undi ncede",
+      "confidence": 0.9629988527554695,
+      "similarity": 0.8823529411764706,
+      "duration": 1.9545625,
+      "peak": 0.4954833984375,
+      "rms": 0.08822206419261941,
+      "checks": {
+        "transcriptMatches": false,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "ndicela-undincede",
+      "kind": "reference-7332",
+      "file": "models/higgs-mlx-candidate/audio/variants/ndicela-undincede-7332.wav",
+      "sha256": "322b7c78bdb87b35887733f63ec39912b8dd837dfbedbbfc6743dcb12664191a",
+      "expected": "Ndicela undincede.",
+      "transcript": "ndicsela undi ncede",
+      "confidence": 0.9460768746220695,
+      "similarity": 0.9411764705882353,
+      "duration": 1.8311875,
+      "peak": 0.48980712890625,
+      "rms": 0.08738012743262151,
+      "checks": {
+        "transcriptMatches": false,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "ndicela-undincede",
+      "kind": "independent-test",
+      "file": "models/higgs-mlx-candidate/fixtures/ndicela-undincede.wav",
+      "sha256": "e021095b5db64bd20a7d102a027b5781a43876d53788a26eaf134e3b41597f17",
+      "expected": "Ndicela undincede.",
+      "transcript": "ndi tsela undincede",
+      "confidence": 0.9564477977482566,
+      "similarity": 0.8823529411764706,
+      "duration": 2.1634375,
+      "peak": 0.551116943359375,
+      "rms": 0.0891045119976686,
+      "checks": {
+        "transcriptMatches": false,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "andiqondi",
+      "kind": "primary",
+      "file": "models/higgs-mlx-candidate/audio/andiqondi.wav",
+      "sha256": "ec7384c416871641faa881c9fa56210e9c944eba1d3757d4c921a0ad9797e25f",
+      "expected": "Andiqondi.",
+      "transcript": "andiqondi",
+      "confidence": 0.9780820752545437,
+      "similarity": 1,
+      "duration": 1.457625,
+      "peak": 0.511505126953125,
+      "rms": 0.0908026650097296,
+      "checks": {
+        "transcriptMatches": true,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "andiqondi",
+      "kind": "reference-7331",
+      "file": "models/higgs-mlx-candidate/audio/variants/andiqondi-7331.wav",
+      "sha256": "3774cdd6de066ebc45061ed6bf3e0c885a73d2c72b94b50b05a2e6ed6a34678b",
+      "expected": "Andiqondi.",
+      "transcript": "andiqondi",
+      "confidence": 0.9675996724584712,
+      "similarity": 1,
+      "duration": 1.5038125,
+      "peak": 0.551666259765625,
+      "rms": 0.09407943727327638,
+      "checks": {
+        "transcriptMatches": true,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "andiqondi",
+      "kind": "reference-7332",
+      "file": "models/higgs-mlx-candidate/audio/variants/andiqondi-7332.wav",
+      "sha256": "1f7607be455a41a401c7e108df81d13296960b29e82434d9c05dded1451fa508",
+      "expected": "Andiqondi.",
+      "transcript": "andiqondi",
+      "confidence": 0.974502400985041,
+      "similarity": 1,
+      "duration": 1.4150625,
+      "peak": 0.5546875,
+      "rms": 0.09266424838052355,
+      "checks": {
+        "transcriptMatches": true,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "andiqondi",
+      "kind": "independent-test",
+      "file": "models/higgs-mlx-candidate/fixtures/andiqondi.wav",
+      "sha256": "22bd85cb9815ef48e4424575fc412811adc317a59751507cdd292bcb4669ded9",
+      "expected": "Andiqondi.",
+      "transcript": "andikondi",
+      "confidence": 0.9972287935772184,
+      "similarity": 0.8888888888888888,
+      "duration": 1.394125,
+      "peak": 0.603546142578125,
+      "rms": 0.08244605121295764,
+      "checks": {
+        "transcriptMatches": false,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "ndicela-uphinde",
+      "kind": "primary",
+      "file": "models/higgs-mlx-candidate/audio/ndicela-uphinde.wav",
+      "sha256": "66c95519b7ad5b6f0a1f6d05135195adaa2396410d0962dc4c1f7a3ca15a050d",
+      "expected": "Ndicela uphinde.",
+      "transcript": "ndi csela uphinde",
+      "confidence": 0.9583180344933411,
+      "similarity": 0.9333333333333333,
+      "duration": 1.739,
+      "peak": 0.5689697265625,
+      "rms": 0.08608145032121074,
+      "checks": {
+        "transcriptMatches": false,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "ndicela-uphinde",
+      "kind": "reference-7331",
+      "file": "models/higgs-mlx-candidate/audio/variants/ndicela-uphinde-7331.wav",
+      "sha256": "9e4fba28771de229b5968c3d033e2ada4c6074da6162604c32f3aa2ca3b94902",
+      "expected": "Ndicela uphinde.",
+      "transcript": "ndi tcsela uphinde",
+      "confidence": 0.9540826966021823,
+      "similarity": 0.875,
+      "duration": 1.796875,
+      "peak": 0.565765380859375,
+      "rms": 0.08523267253866287,
+      "checks": {
+        "transcriptMatches": false,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "ndicela-uphinde",
+      "kind": "reference-7332",
+      "file": "models/higgs-mlx-candidate/audio/variants/ndicela-uphinde-7332.wav",
+      "sha256": "3c41621e852422519de94cfaa0a52e3519aa91774e2b45b5871844c44d11e5e8",
+      "expected": "Ndicela uphinde.",
+      "transcript": "nditsela uphinde",
+      "confidence": 0.9982451533360905,
+      "similarity": 0.8666666666666667,
+      "duration": 1.685625,
+      "peak": 0.5523681640625,
+      "rms": 0.08363764229044637,
+      "checks": {
+        "transcriptMatches": false,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "ndicela-uphinde",
+      "kind": "independent-test",
+      "file": "models/higgs-mlx-candidate/fixtures/ndicela-uphinde.wav",
+      "sha256": "d2150eea519d637c7751fbdb0663c93df33e8991457a603e5db3c118bef6bb72",
+      "expected": "Ndicela uphinde.",
+      "transcript": "ndi xela uphinde",
+      "confidence": 0.9983632624025618,
+      "similarity": 0.9285714285714286,
+      "duration": 1.935625,
+      "peak": 0.840667724609375,
+      "rms": 0.08391704389007541,
+      "checks": {
+        "transcriptMatches": false,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "ndicela-uthethe-ungangxami",
+      "kind": "primary",
+      "file": "models/higgs-mlx-candidate/audio/ndicela-uthethe-ungangxami.wav",
+      "sha256": "eedd9217773bd64684d5b2302c0a6f63e8c7a7cccffb54b251ce3ddf173d05ee",
+      "expected": "Ndicela uthethe ungangxami.",
+      "transcript": "ndicsela uthethe ungangame",
+      "confidence": 0.9621326913433648,
+      "similarity": 0.875,
+      "duration": 2.4939375,
+      "peak": 0.60406494140625,
+      "rms": 0.09018601173967997,
+      "checks": {
+        "transcriptMatches": false,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "ndicela-uthethe-ungangxami",
+      "kind": "reference-7331",
+      "file": "models/higgs-mlx-candidate/audio/variants/ndicela-uthethe-ungangxami-7331.wav",
+      "sha256": "46d37542985a38465f386423dfe6e732c2972a72826c6661392b5d0d406e2092",
+      "expected": "Ndicela uthethe ungangxami.",
+      "transcript": "ndicsela uthethe ungangame",
+      "confidence": 0.9791262135626992,
+      "similarity": 0.875,
+      "duration": 2.5833125,
+      "peak": 0.600250244140625,
+      "rms": 0.09153088594285384,
+      "checks": {
+        "transcriptMatches": false,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "ndicela-uthethe-ungangxami",
+      "kind": "reference-7332",
+      "file": "models/higgs-mlx-candidate/audio/variants/ndicela-uthethe-ungangxami-7332.wav",
+      "sha256": "8109cccac9658bc65e7b602b9782409066799deb44ba87d5412544074c220ae8",
+      "expected": "Ndicela uthethe ungangxami.",
+      "transcript": "ndicsela uthethe ungangame",
+      "confidence": 0.9778194010429133,
+      "similarity": 0.875,
+      "duration": 2.4115,
+      "peak": 0.61614990234375,
+      "rms": 0.09181068868408002,
+      "checks": {
+        "transcriptMatches": false,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "ndicela-uthethe-ungangxami",
+      "kind": "independent-test",
+      "file": "models/higgs-mlx-candidate/fixtures/ndicela-uthethe-ungangxami.wav",
+      "sha256": "a8324773bd876ec7d3aee78a8c919a1f83d2c1d691fa47d8b05149c0a95382c8",
+      "expected": "Ndicela uthethe ungangxami.",
+      "transcript": "ndicela uthethe ungancami",
+      "confidence": 0.9763530740198848,
+      "similarity": 0.9166666666666666,
+      "duration": 3.309625,
+      "peak": 0.891265869140625,
+      "rms": 0.05964059652763577,
+      "checks": {
+        "transcriptMatches": false,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "nam-ndiyabulela",
+      "kind": "primary",
+      "file": "models/higgs-mlx-candidate/audio/nam-ndiyabulela.wav",
+      "sha256": "0702be5edada112b555c879096c65c86370e370d74e9fb267c83d535e8de483a",
+      "expected": "Nam ndiyabulela.",
+      "transcript": "nam ndiya bulela",
+      "confidence": 0.9998462701412959,
+      "similarity": 1,
+      "duration": 1.8215,
+      "peak": 0.3580322265625,
+      "rms": 0.08816127626540977,
+      "checks": {
+        "transcriptMatches": true,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "nam-ndiyabulela",
+      "kind": "reference-7331",
+      "file": "models/higgs-mlx-candidate/audio/variants/nam-ndiyabulela-7331.wav",
+      "sha256": "5cd0fbd385b959877af8f921072e23626164babfedbda74c0e1937809ffb58a9",
+      "expected": "Nam ndiyabulela.",
+      "transcript": "nam ndiya bulela",
+      "confidence": 0.9686005234656575,
+      "similarity": 1,
+      "duration": 1.8828125,
+      "peak": 0.364715576171875,
+      "rms": 0.09012375135369093,
+      "checks": {
+        "transcriptMatches": true,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "nam-ndiyabulela",
+      "kind": "reference-7332",
+      "file": "models/higgs-mlx-candidate/audio/variants/nam-ndiyabulela-7332.wav",
+      "sha256": "d6d71fe62210150155e06bfb5ffe1fb4a028cf09ea639ccb6b4136062734e4c5",
+      "expected": "Nam ndiyabulela.",
+      "transcript": "nam ndiya bulela",
+      "confidence": 0.9850852400046508,
+      "similarity": 1,
+      "duration": 1.7649375,
+      "peak": 0.367919921875,
+      "rms": 0.08963179892465814,
+      "checks": {
+        "transcriptMatches": true,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "nam-ndiyabulela",
+      "kind": "independent-test",
+      "file": "models/higgs-mlx-candidate/fixtures/nam-ndiyabulela.wav",
+      "sha256": "8adc0b0c395f8bf735aa497b43c05a342e4dc24351dd953cd878e9cac51cc272",
+      "expected": "Nam ndiyabulela.",
+      "transcript": "nam ndiya bulela",
+      "confidence": 0.9958884650243611,
+      "similarity": 1,
+      "duration": 1.892125,
+      "peak": 0.6214599609375,
+      "rms": 0.08361805571277565,
+      "checks": {
+        "transcriptMatches": true,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "molo-bhuti",
+      "kind": "primary",
+      "file": "models/higgs-mlx-candidate/audio/molo-bhuti.wav",
+      "sha256": "0eeae6e00a910ad6ffbee0ba4515f5b0a15b5a975da172336d81bf0636c0e5cd",
+      "expected": "Molo, bhuti!",
+      "transcript": "malo bhudi",
+      "confidence": 0.9186106435621051,
+      "similarity": 0.7777777777777778,
+      "duration": 2.2070625,
+      "peak": 0.433837890625,
+      "rms": 0.08395597262491734,
+      "checks": {
+        "transcriptMatches": false,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "molo-bhuti",
+      "kind": "reference-7331",
+      "file": "models/higgs-mlx-candidate/audio/variants/molo-bhuti-7331.wav",
+      "sha256": "4874481180ff437ad8567348d78c94f403fb577bff172f0190e0b4239ece6115",
+      "expected": "Molo, bhuti!",
+      "transcript": "molo bhudi",
+      "confidence": 0.9238914356508081,
+      "similarity": 0.8888888888888888,
+      "duration": 2.2845,
+      "peak": 0.43804931640625,
+      "rms": 0.08224934582540107,
+      "checks": {
+        "transcriptMatches": false,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "molo-bhuti",
+      "kind": "reference-7332",
+      "file": "models/higgs-mlx-candidate/audio/variants/molo-bhuti-7332.wav",
+      "sha256": "0e6c74297f28da5583ff7eb12488b12464aa4f1e1384052db9d87cbdce51df10",
+      "expected": "Molo, bhuti!",
+      "transcript": "molo bhudi",
+      "confidence": 0.8442091073688867,
+      "similarity": 0.8888888888888888,
+      "duration": 2.1356875,
+      "peak": 0.444580078125,
+      "rms": 0.08573470843405452,
+      "checks": {
+        "transcriptMatches": false,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "molo-bhuti",
+      "kind": "independent-test",
+      "file": "models/higgs-mlx-candidate/fixtures/molo-bhuti.wav",
+      "sha256": "21a8a408cab8a5c50ad7362268174668ea373520d24459a91365820af90ec727",
+      "expected": "Molo, bhuti!",
+      "transcript": "malo budi",
+      "confidence": 0.9822241981467621,
+      "similarity": 0.6666666666666667,
+      "duration": 1.9674375,
+      "peak": 0.4512939453125,
+      "rms": 0.08439786453808713,
+      "checks": {
+        "transcriptMatches": false,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "molo-sisi",
+      "kind": "primary",
+      "file": "models/higgs-mlx-candidate/audio/molo-sisi.wav",
+      "sha256": "1076e35c422fdd6894f5cdae15573c0526f75e1cc7957596068e9da3746925c1",
+      "expected": "Molo, sisi!",
+      "transcript": "molo si si",
+      "confidence": 0.9570273378837314,
+      "similarity": 1,
+      "duration": 1.63875,
+      "peak": 0.425933837890625,
+      "rms": 0.08576873234465299,
+      "checks": {
+        "transcriptMatches": true,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "molo-sisi",
+      "kind": "reference-7331",
+      "file": "models/higgs-mlx-candidate/audio/variants/molo-sisi-7331.wav",
+      "sha256": "88181375cf752744b48294aaaf90b66ed5b50f030c27695cdb06c13f19c6fee8",
+      "expected": "Molo, sisi!",
+      "transcript": "molo sisi",
+      "confidence": 0.998787202737181,
+      "similarity": 1,
+      "duration": 1.6925,
+      "peak": 0.42767333984375,
+      "rms": 0.08474558158781632,
+      "checks": {
+        "transcriptMatches": true,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "molo-sisi",
+      "kind": "reference-7332",
+      "file": "models/higgs-mlx-candidate/audio/variants/molo-sisi-7332.wav",
+      "sha256": "458d55d85d2fb34e984d32ad70dedd312d1cf1cb57e0888f822450e85ee71f12",
+      "expected": "Molo, sisi!",
+      "transcript": "molo sisi",
+      "confidence": 0.9973426065296067,
+      "similarity": 1,
+      "duration": 1.5891875,
+      "peak": 0.419525146484375,
+      "rms": 0.08359512167594063,
+      "checks": {
+        "transcriptMatches": true,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "molo-sisi",
+      "kind": "independent-test",
+      "file": "models/higgs-mlx-candidate/fixtures/molo-sisi.wav",
+      "sha256": "d144ed542fda8fa869c2ed3f17ee7a343882792ff62f17d1838ed4aaf9d6145b",
+      "expected": "Molo, sisi!",
+      "transcript": "molo si si",
+      "confidence": 0.9573231412129116,
+      "similarity": 1,
+      "duration": 2.1610625,
+      "peak": 0.378662109375,
+      "rms": 0.08591672280793662,
+      "checks": {
+        "transcriptMatches": true,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "molo-tatomkhulu",
+      "kind": "primary",
+      "file": "models/higgs-mlx-candidate/audio/molo-tatomkhulu.wav",
+      "sha256": "7ac80e9327a4dad3ac5a575329d2c9db9921a8780623eb726ace88880feed5f2",
+      "expected": "Molo, tat’omkhulu!",
+      "transcript": "mulo thath omkhulu",
+      "confidence": 0.9753205547614239,
+      "similarity": 0.8125,
+      "duration": 2.472375,
+      "peak": 0.605224609375,
+      "rms": 0.09719895708311807,
+      "checks": {
+        "transcriptMatches": false,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "molo-tatomkhulu",
+      "kind": "reference-7331",
+      "file": "models/higgs-mlx-candidate/audio/variants/molo-tatomkhulu-7331.wav",
+      "sha256": "4f0ddd378d4f915f63d54a051a0bc1736ae59161c5ae99c3050d5cd4b5f1f346",
+      "expected": "Molo, tat’omkhulu!",
+      "transcript": "molo that omkhulu",
+      "confidence": 0.9806600581380778,
+      "similarity": 0.9333333333333333,
+      "duration": 2.5608125,
+      "peak": 0.602996826171875,
+      "rms": 0.09499423221458063,
+      "checks": {
+        "transcriptMatches": false,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "molo-tatomkhulu",
+      "kind": "reference-7332",
+      "file": "models/higgs-mlx-candidate/audio/variants/molo-tatomkhulu-7332.wav",
+      "sha256": "bdf1bb0321222862101b6d459217fdd2463400e60cbfd06c0c0df36023d5d78c",
+      "expected": "Molo, tat’omkhulu!",
+      "transcript": "mulo that omkhulu",
+      "confidence": 0.9850855137302567,
+      "similarity": 0.8666666666666667,
+      "duration": 2.39075,
+      "peak": 0.628692626953125,
+      "rms": 0.09661697489524215,
+      "checks": {
+        "transcriptMatches": false,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "molo-tatomkhulu",
+      "kind": "independent-test",
+      "file": "models/higgs-mlx-candidate/fixtures/molo-tatomkhulu.wav",
+      "sha256": "73325acfb7b851f6b83a4a487126c32dd398690628e4d2a93a6f8abaacd330d3",
+      "expected": "Molo, tat’omkhulu!",
+      "transcript": "malo tath omkhulu",
+      "confidence": 0.9578607430530512,
+      "similarity": 0.8666666666666667,
+      "duration": 2.488125,
+      "peak": 0.488494873046875,
+      "rms": 0.09381007224189489,
+      "checks": {
+        "transcriptMatches": false,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "molo-makhulu",
+      "kind": "primary",
+      "file": "models/higgs-mlx-candidate/audio/molo-makhulu.wav",
+      "sha256": "19218564fc715074549df25096d832fc5a53df2a7eafbbf328e0e51f86ea9150",
+      "expected": "Molo, makhulu!",
+      "transcript": "mulo makhu lu",
+      "confidence": 0.968461151004325,
+      "similarity": 0.9090909090909091,
+      "duration": 2.469875,
+      "peak": 0.38214111328125,
+      "rms": 0.0917422436615537,
+      "checks": {
+        "transcriptMatches": false,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "molo-makhulu",
+      "kind": "reference-7331",
+      "file": "models/higgs-mlx-candidate/audio/variants/molo-makhulu-7331.wav",
+      "sha256": "e8d49d706fe87abd77934f2f57a1e44c5ddc94b387bb2b0f7846ad1b7b0074c7",
+      "expected": "Molo, makhulu!",
+      "transcript": "mulo makhu lu",
+      "confidence": 0.9759374268275938,
+      "similarity": 0.9090909090909091,
+      "duration": 2.55825,
+      "peak": 0.38482666015625,
+      "rms": 0.09263955353663941,
+      "checks": {
+        "transcriptMatches": false,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "molo-makhulu",
+      "kind": "reference-7332",
+      "file": "models/higgs-mlx-candidate/audio/variants/molo-makhulu-7332.wav",
+      "sha256": "eaa9864c834a262b36182ce9e1822e66f60acad9b77ca56f09a5341a39a69cf4",
+      "expected": "Molo, makhulu!",
+      "transcript": "mulo makhu lu",
+      "confidence": 0.9980688424172276,
+      "similarity": 0.9090909090909091,
+      "duration": 2.388375,
+      "peak": 0.389801025390625,
+      "rms": 0.09326724738336119,
+      "checks": {
+        "transcriptMatches": false,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "molo-makhulu",
+      "kind": "independent-test",
+      "file": "models/higgs-mlx-candidate/fixtures/molo-makhulu.wav",
+      "sha256": "475fd5d3dabc06d6edd2569b4d17013fc0db299d97b72331a820a75a2af00beb",
+      "expected": "Molo, makhulu!",
+      "transcript": "molo makhu lu",
+      "confidence": 0.9994978046719505,
+      "similarity": 1,
+      "duration": 2.232125,
+      "peak": 0.493408203125,
+      "rms": 0.09086111486176997,
+      "checks": {
+        "transcriptMatches": true,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "hambani-kakuhle",
+      "kind": "primary",
+      "file": "models/higgs-mlx-candidate/audio/hambani-kakuhle.wav",
+      "sha256": "1b12dea3be9a1fa79da87e6ab967809c3f3d40fbdffe2dd3c249194aa08423de",
+      "expected": "Hambani kakuhle!",
+      "transcript": "hambani kakuhle",
+      "confidence": 0.9994394854092125,
+      "similarity": 1,
+      "duration": 1.8199375,
+      "peak": 0.50616455078125,
+      "rms": 0.08541885146890585,
+      "checks": {
+        "transcriptMatches": true,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "hambani-kakuhle",
+      "kind": "reference-7331",
+      "file": "models/higgs-mlx-candidate/audio/variants/hambani-kakuhle-7331.wav",
+      "sha256": "21f29508e6ae60fa535ef7125020b64b63c4ce0e26e30b00aa7d5025c50fb6f6",
+      "expected": "Hambani kakuhle!",
+      "transcript": "hambani kakuhle",
+      "confidence": 0.9999833906447393,
+      "similarity": 1,
+      "duration": 1.8811875,
+      "peak": 0.5037841796875,
+      "rms": 0.08420472865122144,
+      "checks": {
+        "transcriptMatches": true,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "hambani-kakuhle",
+      "kind": "reference-7332",
+      "file": "models/higgs-mlx-candidate/audio/variants/hambani-kakuhle-7332.wav",
+      "sha256": "4713b0f865c83572dc890efb1447da161bc73206d553394796f72be682eaba08",
+      "expected": "Hambani kakuhle!",
+      "transcript": "hambani kakuhle",
+      "confidence": 0.999917557099744,
+      "similarity": 1,
+      "duration": 1.7634375,
+      "peak": 0.47918701171875,
+      "rms": 0.08302946236157464,
+      "checks": {
+        "transcriptMatches": true,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "hambani-kakuhle",
+      "kind": "independent-test",
+      "file": "models/higgs-mlx-candidate/fixtures/hambani-kakuhle.wav",
+      "sha256": "a47469830bf3cd0b01fac2241775df812e5f1d99808118af045def45d077110d",
+      "expected": "Hambani kakuhle!",
+      "transcript": "hambani ka kuhle",
+      "confidence": 0.9811731110790461,
+      "similarity": 1,
+      "duration": 1.7630625,
+      "peak": 0.67242431640625,
+      "rms": 0.0808216621101661,
+      "checks": {
+        "transcriptMatches": true,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "salani-kakuhle",
+      "kind": "primary",
+      "file": "models/higgs-mlx-candidate/audio/salani-kakuhle.wav",
+      "sha256": "40e9476f8efcbf3eb169a6448e42f43d1976ba89dd7625c54bb2952ddfcadf1e",
+      "expected": "Salani kakuhle!",
+      "transcript": "salani kakuhle",
+      "confidence": 0.9999131132442357,
+      "similarity": 1,
+      "duration": 1.7728125,
+      "peak": 0.5458984375,
+      "rms": 0.0810454631935901,
+      "checks": {
+        "transcriptMatches": true,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "salani-kakuhle",
+      "kind": "reference-7331",
+      "file": "models/higgs-mlx-candidate/audio/variants/salani-kakuhle-7331.wav",
+      "sha256": "3cb0702a0a8949b6697f4e3482ad6f173b35917eb2f0e58e64531afa0f73d97d",
+      "expected": "Salani kakuhle!",
+      "transcript": "salani ka kuhle",
+      "confidence": 0.9681432886470147,
+      "similarity": 1,
+      "duration": 1.832125,
+      "peak": 0.55169677734375,
+      "rms": 0.08003390533750449,
+      "checks": {
+        "transcriptMatches": true,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "salani-kakuhle",
+      "kind": "reference-7332",
+      "file": "models/higgs-mlx-candidate/audio/variants/salani-kakuhle-7332.wav",
+      "sha256": "09011e51ca07fa6dd9af44f0d717ea0688dc759bb551dc3790c34b1d5b1a7627",
+      "expected": "Salani kakuhle!",
+      "transcript": "salani kakuhle",
+      "confidence": 0.9999446704433118,
+      "similarity": 1,
+      "duration": 1.718125,
+      "peak": 0.53167724609375,
+      "rms": 0.07844063461336154,
+      "checks": {
+        "transcriptMatches": true,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "salani-kakuhle",
+      "kind": "independent-test",
+      "file": "models/higgs-mlx-candidate/fixtures/salani-kakuhle.wav",
+      "sha256": "251fe885f4558a7febdaf6d9baf5f84ba30e347e46dd18392b509406d6d9b48f",
+      "expected": "Salani kakuhle!",
+      "transcript": "salani ka kuhle",
+      "confidence": 0.9889814321324791,
+      "similarity": 1,
+      "duration": 1.7931875,
+      "peak": 0.613067626953125,
+      "rms": 0.07860462627097792,
+      "checks": {
+        "transcriptMatches": true,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "ulale-kamnandi",
+      "kind": "primary",
+      "file": "models/higgs-mlx-candidate/audio/ulale-kamnandi.wav",
+      "sha256": "b6d24fb51dedaf5ef01a0f05b6229da0ec2e8ebfba523f1014b733de5f031c04",
+      "expected": "Ulale kamnandi!",
+      "transcript": "ulale kha mnandi",
+      "confidence": 0.9840743626615877,
+      "similarity": 0.9285714285714286,
+      "duration": 1.7729375,
+      "peak": 0.41326904296875,
+      "rms": 0.08598032358112093,
+      "checks": {
+        "transcriptMatches": false,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "ulale-kamnandi",
+      "kind": "reference-7331",
+      "file": "models/higgs-mlx-candidate/audio/variants/ulale-kamnandi-7331.wav",
+      "sha256": "c3da235871efd3ba97f9cd1c972ff6255f314bf7620bb25c6a0fe49fd34aa46c",
+      "expected": "Ulale kamnandi!",
+      "transcript": "ulale kha mnandi",
+      "confidence": 0.9737104912310831,
+      "similarity": 0.9285714285714286,
+      "duration": 1.83225,
+      "peak": 0.423583984375,
+      "rms": 0.08841618334223188,
+      "checks": {
+        "transcriptMatches": false,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "ulale-kamnandi",
+      "kind": "reference-7332",
+      "file": "models/higgs-mlx-candidate/audio/variants/ulale-kamnandi-7332.wav",
+      "sha256": "9362e4ffb2d8679cb916ba0f73a2c081de6c4fb3f444bffbe8b6f0bd2d4bff7e",
+      "expected": "Ulale kamnandi!",
+      "transcript": "ulale ka mnandi",
+      "confidence": 0.9995821080512605,
+      "similarity": 1,
+      "duration": 1.71825,
+      "peak": 0.420928955078125,
+      "rms": 0.08729043250073562,
+      "checks": {
+        "transcriptMatches": true,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "ulale-kamnandi",
+      "kind": "independent-test",
+      "file": "models/higgs-mlx-candidate/fixtures/ulale-kamnandi.wav",
+      "sha256": "182d7d8ce3d52277aa252539e442a692bb063d8af86014c20a9721ce7a7aa9c0",
+      "expected": "Ulale kamnandi!",
+      "transcript": "ulale ka mnandi",
+      "confidence": 0.981665103933069,
+      "similarity": 1,
+      "duration": 1.671,
+      "peak": 0.416168212890625,
+      "rms": 0.09303124066613497,
+      "checks": {
+        "transcriptMatches": true,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "hayi-enkosi",
+      "kind": "primary",
+      "file": "models/higgs-mlx-candidate/audio/hayi-enkosi.wav",
+      "sha256": "713aaff5920c2ca23e00cc6cec79095969045e3cb61992c1db0f2d0122d1b3e2",
+      "expected": "Hayi, enkosi.",
+      "transcript": "hayi inkosi",
+      "confidence": 0.9992044020310792,
+      "similarity": 0.9,
+      "duration": 2.002875,
+      "peak": 0.651153564453125,
+      "rms": 0.08060755314872844,
+      "checks": {
+        "transcriptMatches": false,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "hayi-enkosi",
+      "kind": "reference-7331",
+      "file": "models/higgs-mlx-candidate/audio/variants/hayi-enkosi-7331.wav",
+      "sha256": "d6d2c48cb944ff638757525f708b59c7c9fb934a622d51acd00bbee3cebe3102",
+      "expected": "Hayi, enkosi.",
+      "transcript": "hayi inkosi",
+      "confidence": 0.9980538590763711,
+      "similarity": 0.9,
+      "duration": 2.07175,
+      "peak": 0.63140869140625,
+      "rms": 0.07923975245633695,
+      "checks": {
+        "transcriptMatches": false,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "hayi-enkosi",
+      "kind": "reference-7332",
+      "file": "models/higgs-mlx-candidate/audio/variants/hayi-enkosi-7332.wav",
+      "sha256": "7af37a06cedb6d870055366c028b64d4f6c6cf12191a3499a5acd4adbad67b7a",
+      "expected": "Hayi, enkosi.",
+      "transcript": "hayi inkosi",
+      "confidence": 0.9879876508428083,
+      "similarity": 0.9,
+      "duration": 1.9393125,
+      "peak": 0.63995361328125,
+      "rms": 0.07895737107768354,
+      "checks": {
+        "transcriptMatches": false,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    },
+    {
+      "id": "hayi-enkosi",
+      "kind": "independent-test",
+      "file": "models/higgs-mlx-candidate/fixtures/hayi-enkosi.wav",
+      "sha256": "cabbc204a3a058904aa56dced33dcc45ffcd98304e45b354cf24a366cc9cd4e8",
+      "expected": "Hayi, enkosi.",
+      "transcript": "hayi inkosi",
+      "confidence": 0.9982253412857474,
+      "similarity": 0.9,
+      "duration": 2.0531875,
+      "peak": 0.6617431640625,
+      "rms": 0.07887027044251645,
+      "checks": {
+        "transcriptMatches": false,
+        "containsSpeech": true,
+        "noClipping": true
+      }
+    }
+  ]
+}

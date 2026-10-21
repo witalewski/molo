@@ -720,6 +720,37 @@ test("incorrect speech gives feedback and cannot complete the speaking exercise"
   ).toContainText("0");
 });
 
+for (const phrase of course
+  .flatMap((lesson) => lesson.phrases)
+  .filter((phrase) => phrase.id.startsWith("uxolo-"))) {
+  test(`corrected ${phrase.id} audio plays and accepts independent voice practice`, async ({
+    page,
+  }) => {
+    await go(page);
+    await ready(page);
+    await page.getByRole("button", { name: "Słowniczek", exact: true }).click();
+    await page
+      .getByRole("button", { name: `Ćwicz wymowę: ${phrase.xh}`, exact: true })
+      .click();
+    await expect(
+      page.getByRole("heading", { name: phrase.xh, exact: true }),
+    ).toBeVisible();
+    await playToEnd(page);
+    await page
+      .getByLabel("Wybierz nagranie swojej wypowiedzi")
+      .setInputFiles(fixture(phrase.id));
+    await expect(
+      page.getByText("Fraza rozpoznana. Dobra robota!", { exact: true }),
+    ).toBeVisible({ timeout: 45000 });
+    await page
+      .getByRole("button", { name: "Zakończ trening", exact: true })
+      .click();
+    await expect(
+      page.getByRole("heading", { name: "Twój słowniczek", exact: true }),
+    ).toBeVisible();
+  });
+}
+
 test("microphone uses real MediaRecorder, receives audio and releases every track", async ({
   page,
 }) => {
